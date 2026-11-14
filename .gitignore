@@ -6,3 +6,5 @@ vector_store*/
 demo_video/
 .ipynb_checkpoints/
 .DS_Store
+~$*
+*.docx
