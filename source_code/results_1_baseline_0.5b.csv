@@ -1,10 +1,10 @@
 ﻿question,expected,expected_page,answer,top_pages,label,reason
-What is the major code of the B.S. Computer Science program?,7480101,1,The major code of the B.S. Computer Science program is 7480101.,"[1, 4, 7, 4, 7]",,
+What is the major code of the B.S. Computer Science program?,7480101,1,The major code of the B.S. Computer Science program is 7480101.,"[1, 4, 7, 4, 7]",correct,Correct major code.
 What are the Program Educational Objectives (PEOs)?,"PEO1: skills for employment or graduate school; PEO2: ethics, collaboration, communication; PEO3: innovators who solve CS challenges",4,"The Program Educational Objectives (PEOs) for the B.S. Computer Science major at Fulbright are:
 
 1. To equip students with the necessary skills and knowledge to gain employment in industry or to study in graduate schools.
 2. To cultivate students to become innovators and thinkers to solve computer science-related challenges.
-3. To provide a strong code of professional and personal ethics, and the ability to effectively and creatively collaborate and communicate in the workplace and beyond.","[2, 4, 5, 4, 4]",,
+3. To provide a strong code of professional and personal ethics, and the ability to effectively and creatively collaborate and communicate in the workplace and beyond.","[2, 4, 5, 4, 4]",incorrect,PEOs are reworded and in the wrong order; PEO2 and PEO3 are swapped and changed.
 What jobs have Computer Science graduates gotten?,"Software engineer, testing engineer, AI engineer, data engineer, business analyst, product owner, product development manager",5,"Computer Science graduates have successfully gained employment in various roles, including:
 
 1. Software engineers
@@ -15,7 +15,7 @@ What jobs have Computer Science graduates gotten?,"Software engineer, testing en
 6. Product owners
 7. Product development managers
 
-These roles demonstrate the versatility and adaptability of Computer Science graduates, who are skilled in software development, testing, artificial intelligence, data analysis, and business management.","[5, 4, 5, 4, 4]",,
+These roles demonstrate the versatility and adaptability of Computer Science graduates, who are skilled in software development, testing, artificial intelligence, data analysis, and business management.","[5, 4, 5, 4, 4]",correct,All 7 jobs listed.
 Which graduate programs have CS students applied to?,"MSc/PhD Computer Science, MSc Data Science, MSc Bioinformatics",5,"Computer Science students have successfully applied to graduate programs in the United States and Europe. These programs include:
 
 1. Master's in Computer Science (MSc/PhD)
@@ -23,11 +23,11 @@ Which graduate programs have CS students applied to?,"MSc/PhD Computer Science, 
 3. Master's in Bioinformatics
 4. Master's in Bioinformatics (MSc Bioinformatics)
 
-The context provides a comprehensive overview of the various graduate programs offered by Fulbright universities, including the core curriculum, exploratory curriculum, major curriculum, and elective curriculum. It also mentions that Fulbright students are encouraged to step out of their comfort zones and discover where their interests and passions lie.","[6, 5, 4, 13, 4]",,
-How many credits are the general curriculum requirements?,40 credits and 10 noncredit items,6,The general curriculum requirements for a Bachelor of Science in Applied Mathematics are 40 credits and 10 noncredit items.,"[7, 7, 2, 6, 7]",,
-Which four core courses must students take?,"Global Humanities, Modern Vietnamese Culture and Society, Design and Systems Thinking, and one QUEST course",6,"Based on the provided context, students must take four core courses to fulfill the requirements of the Major: Introduction to Computer Science, Data Structures & Algorithms, Computer Organization, and Discrete Mathematics.","[8, 6, 5, 7, 8]",,
-How many credits are the major requirements?,56 credits,7,"The major requirements are 56 credits. This is based on the information provided in the context, which states that the major requirements include 4 credits from CS 101, 4 credits from CS 201, 4 credits from MATH 202, and 16 credits from the remaining 6 courses.","[2, 7, 7, 7, 16]",,
-What must a student complete to formally declare Computer Science as a major?,At least two Computer Science courses (MATH 202 also counts),7,"To formally declare Computer Science as a major, a student must complete at least two Computer Science courses (MATH 202 - Discrete Math is also counted). This requirement ensures that the student has a solid foundation in the core subjects of Computer Science, including theory, systems, and applications.","[7, 7, 4, 4, 8]",,
+The context provides a comprehensive overview of the various graduate programs offered by Fulbright universities, including the core curriculum, exploratory curriculum, major curriculum, and elective curriculum. It also mentions that Fulbright students are encouraged to step out of their comfort zones and discover where their interests and passions lie.","[6, 5, 4, 13, 4]",incorrect,"The 3 programs are there, but it lists Bioinformatics twice (4 items) and adds a false claim about 'Fulbright universities'. Borderline."
+How many credits are the general curriculum requirements?,40 credits and 10 noncredit items,6,The general curriculum requirements for a Bachelor of Science in Applied Mathematics are 40 credits and 10 noncredit items.,"[7, 7, 2, 6, 7]",incorrect,"Numbers (40 credits, 10 noncredit) are right, but it says 'Applied Mathematics'. The handbook itself has this typo. Borderline."
+Which four core courses must students take?,"Global Humanities, Modern Vietnamese Culture and Society, Design and Systems Thinking, and one QUEST course",6,"Based on the provided context, students must take four core courses to fulfill the requirements of the Major: Introduction to Computer Science, Data Structures & Algorithms, Computer Organization, and Discrete Mathematics.","[8, 6, 5, 7, 8]",incorrect,"Lists 4 CS courses (Intro to CS, DSA, ...). These are not the 4 core courses (Global Humanities, Modern Vietnamese Culture..., Design and Systems Thinking, QUEST)."
+How many credits are the major requirements?,56 credits,7,"The major requirements are 56 credits. This is based on the information provided in the context, which states that the major requirements include 4 credits from CS 101, 4 credits from CS 201, 4 credits from MATH 202, and 16 credits from the remaining 6 courses.","[2, 7, 7, 7, 16]",correct,56 credits is right. The breakdown it gives is wrong. Borderline.
+What must a student complete to formally declare Computer Science as a major?,At least two Computer Science courses (MATH 202 also counts),7,"To formally declare Computer Science as a major, a student must complete at least two Computer Science courses (MATH 202 - Discrete Math is also counted). This requirement ensures that the student has a solid foundation in the core subjects of Computer Science, including theory, systems, and applications.","[7, 7, 4, 4, 8]",correct,"At least two CS courses, MATH 202 counts."
 How many courses and credits does the Computer Science minor require?,"Six courses, 24 credits",7,"The Computer Science minor requires students to complete a total of 6 courses. These courses are:
 
 1. One programming course (4 credits) which is either CS 101: Introduction to Programming or CS 103: Programming for Data Science and Visualization.
@@ -57,13 +57,13 @@ The minor also requires completing 12 elective courses, which can be chosen from
 The minor also requires completing 16 elective courses, which can be chosen from the following:
 
 1. CS 302: Algorithms & Theory of Computing (4 credits)
-2. Four advanced courses (16 credits)","[7, 7, 11, 8, 7]",,
+2. Four advanced courses (16 credits)","[7, 7, 11, 8, 7]",incomplete,"Says 6 courses and lists them, but the list is cut and no clear total of 24 credits."
 What is the minimum major GPA to enroll in CS 401 Capstone I?,3.5 and approval of a successful application,9,"To enroll in CS 401 Capstone I, a student must meet the following minimum major GPA requirements:
 
 • A minimum major GPA of 3.5
 • Approval of a successful application
-• More detailed guidelines for the Capstone in Computer Science can be found in the Computer Science Capstone Handbook.","[9, 2, 7, 7, 2]",,
-What degree is awarded after completing this program?,B.S. Computer Science (the handbook text wrongly says Applied Mathematics),6,"After completing the program, a Bachelor of Science in Applied Mathematics is awarded. This degree is designed to foster both breadth and depth of knowledge, critical thinking, and a lifelong love of learning—hallmarks of a liberal arts education.","[5, 5, 6, 2, 6]",,
+• More detailed guidelines for the Capstone in Computer Science can be found in the Computer Science Capstone Handbook.","[9, 2, 7, 7, 2]",correct,3.5 GPA and approval of a successful application.
+What degree is awarded after completing this program?,B.S. Computer Science (the handbook text wrongly says Applied Mathematics),6,"After completing the program, a Bachelor of Science in Applied Mathematics is awarded. This degree is designed to foster both breadth and depth of knowledge, critical thinking, and a lifelong love of learning—hallmarks of a liberal arts education.","[5, 5, 6, 2, 6]",incorrect,Says Applied Mathematics. The handbook itself has this mistake (page 6).
 "How many foundation courses are required, and which are they?","Five: Intro to Programming, Data Structures & Algorithms, Computer Organization, Discrete Math, Algorithms & Theory of Computing",8,"To determine the number of foundation courses required, we need to look at the context provided in the CS_MajorHandbook.pdf file. The relevant information is found in the ""Founda'onal Courses"" section, which states:
 
 ""Sample Foundational Courses: 
@@ -73,19 +73,19 @@ What degree is awarded after completing this program?,B.S. Computer Science (the
 • Discrete Mathematics 
 • Algorithms & Theory of Computing""
 
-These four courses are considered foundation courses for the major. Therefore, the total number of foundation courses required is 4.","[8, 8, 7, 7, 2]",,
-How many advanced courses are required?,Four,7,"To formally declare Computer Science as their major, the student must complete at least two Computer Science courses (e.g., CS 101: Introduction to Programming, CS 103: Programming for Data Science and Visualization, CS 104: Introduction to Computer Science).","[8, 7, 7, 18, 2]",,
+These four courses are considered foundation courses for the major. Therefore, the total number of foundation courses required is 4.","[8, 8, 7, 7, 2]",incorrect,Quotes the table of 5 courses but says 'these four courses'. The right number is 5.
+How many advanced courses are required?,Four,7,"To formally declare Computer Science as their major, the student must complete at least two Computer Science courses (e.g., CS 101: Introduction to Programming, CS 103: Programming for Data Science and Visualization, CS 104: Introduction to Computer Science).","[8, 7, 7, 18, 2]",incorrect,Answers a different question (declaring a major). It does not say 4.
 How many courses are in the Computer Science minor according to the flowchart?,"7 courses (the text says 6, the handbook is inconsistent)",10,"The Computer Science minor requires students to complete a total of six courses:  
 1. One programming course (4 credits) which is either CS 101: Introduction to Programming or CS 103: Programming for Data Science and Visualization  
 2. One 100-level or 200-level CS course (4 credits)  
 3. CS 201 – Data Structures & Algorithms (4 credits)  
 4. One intermediate course (4 credits)  
 5. One 200-level or 300-level CS course (4 credits)  
-6. One advanced course (4 credits)","[7, 7, 11, 8, 13]",,
-What is the prerequisite of CS302 Algorithms & Theory of Computing?,CS201 and MATH 202,16,The prerequisite for CS302 Algorithms & Theory of Computing is CS201 and MATH 202.,"[17, 12, 14, 14, 16]",,
-What is the prerequisite of CS311 Advanced Deep Learning?,CS313,18,The prerequisite of CS311 Advanced Deep Learning is CS313.,"[18, 18, 18, 18, 16]",,
-Which programming language is mainly used in CS201?,Java (some Python/C++ also introduced),14,"CS201, which is the first course in the CS201 series, is primarily used in the context of CS201. This course is designed to provide a broad overview of programming languages and their applications, focusing on imperative, object-oriented, declarative, and functional programming paradigms. It is one of the foundational courses in computer science and is often used as a prerequisite for more advanced courses in programming languages and software engineering.","[16, 13, 16, 14, 11]",,
-"Which course teaches finite automaton, pushdown automaton and Turing machine?",CS302 Algorithms & Theory of Computing,16,"The course ""CS302: Algorithms & Theory of Computing"" teaches finite automaton, pushdown automaton, and Turing machine.","[17, 15, 15, 14, 18]",,
+6. One advanced course (4 credits)","[7, 7, 11, 8, 13]",incorrect,Says 6 courses and lists the minor from the text. The flowchart (page 10) says 7; page 10 was not retrieved.
+What is the prerequisite of CS302 Algorithms & Theory of Computing?,CS201 and MATH 202,16,The prerequisite for CS302 Algorithms & Theory of Computing is CS201 and MATH 202.,"[17, 12, 14, 14, 16]",correct,CS201 and MATH 202.
+What is the prerequisite of CS311 Advanced Deep Learning?,CS313,18,The prerequisite of CS311 Advanced Deep Learning is CS313.,"[18, 18, 18, 18, 16]",correct,Correct: CS313.
+Which programming language is mainly used in CS201?,Java (some Python/C++ also introduced),14,"CS201, which is the first course in the CS201 series, is primarily used in the context of CS201. This course is designed to provide a broad overview of programming languages and their applications, focusing on imperative, object-oriented, declarative, and functional programming paradigms. It is one of the foundational courses in computer science and is often used as a prerequisite for more advanced courses in programming languages and software engineering.","[16, 13, 16, 14, 11]",incorrect,Never says Java. It talks about 'programming paradigms' and repeats the course name.
+"Which course teaches finite automaton, pushdown automaton and Turing machine?",CS302 Algorithms & Theory of Computing,16,"The course ""CS302: Algorithms & Theory of Computing"" teaches finite automaton, pushdown automaton, and Turing machine.","[17, 15, 15, 14, 18]",correct,CS302.
 Which courses are currently on holding?,"CS210, CS303, CS306, CS310, CS3xx Bioinformatics",13,"The current courses on holding are:
 
 1. CS201: Foundations of Software Engineering
@@ -99,5 +99,10 @@ Which courses are currently on holding?,"CS210, CS303, CS306, CS310, CS3xx Bioin
 9. CS302: Algorithms & Theory of Computing
 10. CS301: Foundations of Software Engineering
 
-These courses are currently not holding, but they are on the horizon for graduate students without honors.","[13, 18, 8, 16, 15]",,
-How much is the tuition fee for the Computer Science major?,Not in the handbook. A good system should say it does not know,0,"The tuition fee for the Computer Science major is $10,000 per academic year.","[1, 7, 4, 4, 7]",,
+These courses are currently not holding, but they are on the horizon for graduate students without honors.","[13, 18, 8, 16, 15]",incorrect,"Gives a long list of 10 courses, with duplicates and wrong ones. Correct list has 5 courses."
+How much is the tuition fee for the Computer Science major?,Not in the handbook. A good system should say it does not know,0,"The tuition fee for the Computer Science major is $10,000 per academic year.","[1, 7, 4, 4, 7]",incorrect,"Hallucination: '$10,000 per academic year'. The handbook has no tuition fee."
+,,,,,incorrect,"Says the prerequisite is CS104. The handbook says None; CS104 is only recommended. Right pages were retrieved, so the small model misread the text."
+,,,,,incorrect,"Says 'once a year'. The handbook says once every two years. The baseline reads the catalogue table as flat text, so the availability column is detached from the course name."
+,,,,,incorrect,Answers CS103. The correct course is CS203. The flattened table row made the model mix up neighbouring rows.
+,,,,,correct,Correct course (CS311) and topics.
+,,,,,incorrect,"Says the context does not give credits per course. The note '(4 credits) unless indicated otherwise' is on page 13, but page 13 was only ranked 4th and the model missed it."
