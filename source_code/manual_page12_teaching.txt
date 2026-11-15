@@ -1,0 +1,7 @@
+TEACHING, LEARNING, AND ASSESSMENT (page 12 of the handbook). Each Program Learning Outcome has its own teaching and learning methods and assessment examples.
+
+TEACHING AND ASSESSMENT - PLO1 (demonstrate an understanding of fundamental computer science by illustrating core concepts, comparing methods, analyzing and solving problems in both theory and systems). Teaching and learning methods: Lecture; Lab; Worksheet; Group discussion. Assessment examples: Programming test; Quiz; Exam; Group presentation; Capstone.
+
+TEACHING AND ASSESSMENT - PLO2 (explain emerging aspects of the computer science discipline, e.g., artificial intelligence, machine learning, data science, business analytics, digital media). Teaching and learning methods: Reading; Lecture; Lab; Group discussion; Class project. Assessment examples: Quiz; Exam; Group presentation; Capstone.
+
+TEACHING AND ASSESSMENT - PLO3 (develop real-world applications, e.g., software systems and frameworks, mobile apps, data pipeline, by using knowledge of computer science and other disciplines). Teaching and learning methods: Lecture; Lab; Field trip; Class project. Assessment examples: Presentation; Capstone.

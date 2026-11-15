@@ -1,0 +1,29 @@
+PLO MATRIX (Course Alignment with the Program Learning Outcomes), page 12 of the handbook. PLO1 = fundamental computer science; PLO2 = emerging aspects of computer science; PLO3 = developing real-world applications. Legend: I = Introduced; R = Reinforced/Practiced; M = Mastery; A = Assessment opportunity.
+
+PLO MATRIX - CS302 Algorithms & Theory of Computing: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS303 Human-Computer Interaction: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS304 Database Systems: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS306 Computer Security: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+PLO MATRIX - CS307 Machine Learning: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS310 Web Applications & Human-Computer Interaction: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+PLO MATRIX - CS311 Advanced Deep Learning: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+PLO MATRIX - CS312 Natural Language Processing: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+PLO MATRIX - CS313 Deep Learning for AI: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS3xx Bioinformatics: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+PLO MATRIX - MATH308 Statistical Learning: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - MATH301 Optimization: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - ENG301 Computer Vision: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+PLO MATRIX - CS 401/402 Capstone I and II: PLO1 (fundamental computer science) = M/A (Mastery and Assessment opportunity); PLO2 (emerging aspects of computer science) = M/A (Mastery and Assessment opportunity); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).

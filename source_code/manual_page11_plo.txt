@@ -1,0 +1,21 @@
+PLO MATRIX (Course Alignment with the Program Learning Outcomes), page 11 of the handbook. PLO1 = fundamental computer science; PLO2 = emerging aspects of computer science; PLO3 = developing real-world applications. Legend: I = Introduced; R = Reinforced/Practiced; M = Mastery; A = Assessment opportunity.
+
+PLO MATRIX - CS101 Introduction to Programming: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS103 Programming for Data Science and Visualization: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS104 Introduction to Computer Science: PLO1 (fundamental computer science) = I (Introduced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS201 Data Structures & Algorithms: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS203 Computer Organization: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS207 Software Construction: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS208 Machine Learning for Data Science: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS211 Operating Systems: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS212 Programming Language Paradigms: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS301 Foundations of Software Engineering: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).

@@ -1073,3 +1073,103 @@ FLOWCHART - ADVANCED COURSES (4 required). Sample advanced courses: Web Developm
 [Section: Computer Science Flowchart (page 10, transcribed by hand)]
 FLOWCHART - COMPUTER SCIENCE MINOR (7 courses). The minor in the flowchart has 7 courses: (1) Discrete Mathematics OR Probability; (2) Computer Science I: Introduction to Programming OR Programming for Data Science OR Introduction to Computer Science; (3) Computer Science II: Data Structures & Algorithms; (4) Computer Organization OR Algorithms and Theory of Computing; (5) one Intermediate course; (6) and (7) two Advanced courses.
 
+=== chunk 110 | page 11 ===
+[Section: Hand-transcribed table (page 11)]
+SAMPLE MAJOR PLAN (15 equivalent courses), page 11 of the handbook. A sample 4-year plan for a student in the Computer Science major. Year 1: Core Curriculum; Introduction to CS; Computer Science I; 2 electives.
+
+SAMPLE MAJOR PLAN - Year 2: Discrete Math; Computer Science II; Computer Organization; 1 Intermediate CS course; 4 electives.
+
+SAMPLE MAJOR PLAN - Year 3: Algorithms & Theory of Computing; 2 Intermediate CS courses; 2 Advanced CS courses; 3 electives.
+
+SAMPLE MAJOR PLAN - Year 4: 2 Advanced CS courses; Capstone I & II (or two elective intermediate/advanced courses); 4 electives.
+
+=== chunk 111 | page 11 ===
+[Section: Hand-transcribed table (page 11)]
+SAMPLE MAJOR PLAN - Year 4: 2 Advanced CS courses; Capstone I & II (or two elective intermediate/advanced courses); 4 electives.
+
+SAMPLE MINOR PLAN, page 11 of the handbook. A sample 4-year plan for a student in the Computer Science minor. Year 1: Core Curriculum; Introduction to CS; 1 Major course; 2 electives. Year 2: Computer Science I; Computer Science II; 3 Major courses; 3 electives. Year 3: 2 Intermediate CS courses; 5 Major courses; 1 elective. Year 4: Advanced CS course; 5 Major courses; 2 electives.
+
+=== chunk 112 | page 11 ===
+[Section: Hand-transcribed table (page 11)]
+PLO MATRIX (Course Alignment with the Program Learning Outcomes), page 11 of the handbook. PLO1 = fundamental computer science; PLO2 = emerging aspects of computer science; PLO3 = developing real-world applications. Legend: I = Introduced; R = Reinforced/Practiced; M = Mastery; A = Assessment opportunity.
+
+PLO MATRIX - CS101 Introduction to Programming: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+=== chunk 113 | page 11 ===
+[Section: Hand-transcribed table (page 11)]
+PLO MATRIX - CS103 Programming for Data Science and Visualization: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS104 Introduction to Computer Science: PLO1 (fundamental computer science) = I (Introduced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS201 Data Structures & Algorithms: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+=== chunk 114 | page 11 ===
+[Section: Hand-transcribed table (page 11)]
+PLO MATRIX - CS203 Computer Organization: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS207 Software Construction: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS208 Machine Learning for Data Science: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+=== chunk 115 | page 11 ===
+[Section: Hand-transcribed table (page 11)]
+PLO MATRIX - CS211 Operating Systems: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS212 Programming Language Paradigms: PLO1 (fundamental computer science) = R (Reinforced/Practiced); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS301 Foundations of Software Engineering: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+=== chunk 116 | page 12 ===
+[Section: Hand-transcribed table (page 12)]
+PLO MATRIX (Course Alignment with the Program Learning Outcomes), page 12 of the handbook. PLO1 = fundamental computer science; PLO2 = emerging aspects of computer science; PLO3 = developing real-world applications. Legend: I = Introduced; R = Reinforced/Practiced; M = Mastery; A = Assessment opportunity.
+
+PLO MATRIX - CS302 Algorithms & Theory of Computing: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+=== chunk 117 | page 12 ===
+[Section: Hand-transcribed table (page 12)]
+PLO MATRIX - CS303 Human-Computer Interaction: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS304 Database Systems: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS306 Computer Security: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+=== chunk 118 | page 12 ===
+[Section: Hand-transcribed table (page 12)]
+PLO MATRIX - CS307 Machine Learning: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - CS310 Web Applications & Human-Computer Interaction: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+=== chunk 119 | page 12 ===
+[Section: Hand-transcribed table (page 12)]
+PLO MATRIX - CS311 Advanced Deep Learning: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+PLO MATRIX - CS312 Natural Language Processing: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+PLO MATRIX - CS313 Deep Learning for AI: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = R (Reinforced/Practiced); PLO3 (real-world applications) = not marked.
+
+=== chunk 120 | page 12 ===
+[Section: Hand-transcribed table (page 12)]
+PLO MATRIX - CS3xx Bioinformatics: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+PLO MATRIX - MATH308 Statistical Learning: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+PLO MATRIX - MATH301 Optimization: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = not marked.
+
+=== chunk 121 | page 12 ===
+[Section: Hand-transcribed table (page 12)]
+PLO MATRIX - ENG301 Computer Vision: PLO1 (fundamental computer science) = M (Mastery); PLO2 (emerging aspects of computer science) = I (Introduced); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+PLO MATRIX - CS 401/402 Capstone I and II: PLO1 (fundamental computer science) = M/A (Mastery and Assessment opportunity); PLO2 (emerging aspects of computer science) = M/A (Mastery and Assessment opportunity); PLO3 (real-world applications) = M/A (Mastery and Assessment opportunity).
+
+=== chunk 122 | page 12 ===
+[Section: Hand-transcribed table (page 12)]
+TEACHING, LEARNING, AND ASSESSMENT (page 12 of the handbook). Each Program Learning Outcome has its own teaching and learning methods and assessment examples.
+
+TEACHING AND ASSESSMENT - PLO1 (demonstrate an understanding of fundamental computer science by illustrating core concepts, comparing methods, analyzing and solving problems in both theory and systems). Teaching and learning methods: Lecture; Lab; Worksheet; Group discussion. Assessment examples: Programming test; Quiz; Exam; Group presentation; Capstone.
+
+=== chunk 123 | page 12 ===
+[Section: Hand-transcribed table (page 12)]
+TEACHING AND ASSESSMENT - PLO2 (explain emerging aspects of the computer science discipline, e.g., artificial intelligence, machine learning, data science, business analytics, digital media). Teaching and learning methods: Reading; Lecture; Lab; Group discussion; Class project. Assessment examples: Quiz; Exam; Group presentation; Capstone.
+
+TEACHING AND ASSESSMENT - PLO3 (develop real-world applications, e.g., software systems and frameworks, mobile apps, data pipeline, by using knowledge of computer science and other disciplines). Teaching and learning methods: Lecture; Lab; Field trip; Class project. Assessment examples: Presentation; Capstone.
+

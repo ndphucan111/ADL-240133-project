@@ -1,0 +1,9 @@
+SAMPLE MAJOR PLAN (15 equivalent courses), page 11 of the handbook. A sample 4-year plan for a student in the Computer Science major. Year 1: Core Curriculum; Introduction to CS; Computer Science I; 2 electives.
+
+SAMPLE MAJOR PLAN - Year 2: Discrete Math; Computer Science II; Computer Organization; 1 Intermediate CS course; 4 electives.
+
+SAMPLE MAJOR PLAN - Year 3: Algorithms & Theory of Computing; 2 Intermediate CS courses; 2 Advanced CS courses; 3 electives.
+
+SAMPLE MAJOR PLAN - Year 4: 2 Advanced CS courses; Capstone I & II (or two elective intermediate/advanced courses); 4 electives.
+
+SAMPLE MINOR PLAN, page 11 of the handbook. A sample 4-year plan for a student in the Computer Science minor. Year 1: Core Curriculum; Introduction to CS; 1 Major course; 2 electives. Year 2: Computer Science I; Computer Science II; 3 Major courses; 3 electives. Year 3: 2 Intermediate CS courses; 5 Major courses; 1 elective. Year 4: Advanced CS course; 5 Major courses; 2 electives.

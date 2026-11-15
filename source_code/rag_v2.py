@@ -45,7 +45,7 @@ USE_STRUCT = flag("USE_STRUCT")          # section-aware + course-aware chunks
 USE_PREFIX = flag("USE_PREFIX")          # nomic prefixes (search_document / search_query)
 USE_TABLE = flag("USE_TABLE")            # read the course catalogue table
 USE_OCR = flag("USE_OCR", "0")           # automatic OCR for pages without text (messy on this flowchart)
-USE_FLOWCHART = flag("USE_FLOWCHART")    # hand-written text of page 10 (flowchart_page10.txt)
+USE_FLOWCHART = flag("USE_FLOWCHART")    # hand-written text of image/table pages (flowchart_page10.txt, manual_page*.txt)
 # Switches that change only retrieval / generation (no re-index needed)
 USE_BM25 = flag("USE_BM25")              # hybrid search
 USE_RERANK = flag("USE_RERANK")          # cross-encoder reranker
@@ -315,6 +315,14 @@ def load_pdf(pdf_path: str) -> List[Document]:
                 "section": "Computer Science Flowchart (page 10, transcribed by hand)"}))
         else:
             print("  flowchart_page10.txt not found: skipped")
+        # Tables that pypdf reads in the wrong order (pages 11 and 12): one file per table.
+        # The page number is taken from the file name, e.g. manual_page11_plan.txt -> page 11.
+        for mp in sorted(Path(__file__).parent.glob("manual_page*.txt")):
+            m = re.match(r"manual_page(\d+)", mp.name)
+            docs.append(Document(page_content=mp.read_text(encoding="utf-8"), metadata={
+                "source": name, "page": int(m.group(1)), "kind": "manual",
+                "section": "Hand-transcribed table (page " + m.group(1) + ")"}))
+
     print("  Loaded " + str(len(docs)) + " documents from " + name)
     return docs
 
