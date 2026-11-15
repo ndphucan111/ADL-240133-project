@@ -1,12 +1,4 @@
-"""
-compare.py - build one comparison table from the result CSV files.
-
-Before running: open each results_*.csv and fill the `label` column
-(correct / incomplete / ambiguous / incorrect). Then run:
-    python compare.py
-Output: comparison.csv  (and comparison.xlsx if openpyxl is installed)
-"""
-import csv, os
+import csv, os, statistics
 
 RUNS = {
     "A baseline 0.5b": ["results_1_baseline_0.5b.csv", "results_1b_baseline_new5.csv"],
@@ -16,11 +8,11 @@ RUNS = {
     "E v2 3b":         ["results_4_v2_3b.csv"],
     "F v3 1.5b":       ["results_5_v3_1.5b.csv"],
     "G v3 3b":         ["results_6_v3_3b.csv"],
-    "H no rerank":    ["results_8_no_rerank.csv"],
-    "I no BM25":      ["results_9_no_bm25.csv"],
-    "J no table":     ["results_10_no_table.csv"],
-    "K no flowchart": ["results_11_no_flowchart.csv"],
-    "L no struct":    ["results_12_no_struct.csv"],
+    "H no rerank":     ["results_8_no_rerank.csv"],
+    "I no BM25":       ["results_9_no_bm25.csv"],
+    "J no table":      ["results_10_no_table.csv"],
+    "K no flowchart":  ["results_11_no_flowchart.csv"],
+    "L no struct":     ["results_12_no_struct.csv"],
 }
 LABELS = ["correct", "incomplete", "ambiguous", "incorrect"]
 N_QUESTIONS = 25
@@ -45,13 +37,24 @@ for name, files in RUNS.items():
         questions = [r["question"] for r in rows[:N_QUESTIONS]]
 
 # ---- summary table ----
-summary = [["Run"] + [l.capitalize() for l in LABELS] + ["Empty label", "Accuracy"]]
+summary = [["Run"] + [l.capitalize() for l in LABELS] + ["Empty label", "Accuracy", "Retrieval hit", "Median seconds"]]
 for name, rows in runs.items():
     labs = [(r.get("label") or "").strip().lower() for r in rows]
     counts = [labs.count(l) for l in LABELS]
     empty = sum(1 for l in labs if l not in LABELS)
     acc = counts[0] / len(rows) if rows else 0
-    summary.append([name] + counts + [empty, "%.0f%%" % (acc * 100)])
+    # Retrieval hit: the right page is in the retrieved passages (only for answerable questions).
+    hits = [r.get("hit") for r in rows if (r.get("hit") or "").strip() != ""]
+    hit_txt = "%d/%d" % (sum(1 for h in hits if h.strip() == "1"), len(hits)) if len(hits) >= 20 else "n/a"
+    # Median seconds per question (median is not hurt by the slow first question).
+    secs = []
+    for r in rows:
+        try:
+            secs.append(float(r.get("seconds")))
+        except (TypeError, ValueError):
+            pass
+    sec_txt = round(statistics.median(secs), 1) if len(secs) >= 20 else "n/a"
+    summary.append([name] + counts + [empty, "%.0f%%" % (acc * 100), hit_txt, sec_txt])
 
 # ---- per question table ----
 perq = [["#", "Question"] + list(runs)]

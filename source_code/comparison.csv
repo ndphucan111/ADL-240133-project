@@ -1,16 +1,16 @@
-﻿Run,Correct,Incomplete,Ambiguous,Incorrect,Empty label,Accuracy
-A baseline 0.5b,9,1,0,15,0,36%
-B baseline 1.5b,16,1,0,8,0,64%
-C v2 0.5b,8,1,2,14,0,32%
-D v2 1.5b,20,0,0,5,0,80%
-E v2 3b,21,1,0,3,0,84%
-F v3 1.5b,23,0,0,2,0,92%
-G v3 3b,24,1,0,0,0,96%
-H no rerank,23,1,0,1,0,92%
-I no BM25,21,0,0,4,0,84%
-J no table,21,0,0,4,0,84%
-K no flowchart,20,1,0,4,0,80%
-L no struct,20,1,0,4,0,80%
+﻿Run,Correct,Incomplete,Ambiguous,Incorrect,Empty label,Accuracy,Retrieval hit,Median seconds
+A baseline 0.5b,9,1,0,15,0,36%,n/a,n/a
+B baseline 1.5b,16,1,0,8,0,64%,23/24,10.7
+C v2 0.5b,8,1,2,14,0,32%,23/24,7.6
+D v2 1.5b,20,0,0,5,0,80%,23/24,9.4
+E v2 3b,21,1,0,3,0,84%,23/24,21.3
+F v3 1.5b,23,0,0,2,0,92%,24/24,9.0
+G v3 3b,24,1,0,0,0,96%,24/24,60.3
+H no rerank,23,1,0,1,0,92%,24/24,31.7
+I no BM25,21,0,0,4,0,84%,24/24,28.6
+J no table,21,0,0,4,0,84%,24/24,28.9
+K no flowchart,20,1,0,4,0,80%,23/24,13.3
+L no struct,20,1,0,4,0,80%,24/24,31.9
 
 #,Question,A baseline 0.5b,B baseline 1.5b,C v2 0.5b,D v2 1.5b,E v2 3b,F v3 1.5b,G v3 3b,H no rerank,I no BM25,J no table,K no flowchart,L no struct
 1,What is the major code of the B.S. Computer Science program?,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
