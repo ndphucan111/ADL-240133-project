@@ -1,0 +1,43 @@
+﻿question,expected,expected_page,answer,top_pages,hit,seconds,label,reason
+What is the major code of the B.S. Computer Science program?,7480101,1,7480101,"[1, 4, 4, 5, 10, 8]",1,35.8,correct,
+What are the Program Educational Objectives (PEOs)?,"PEO1: skills for employment or graduate school; PEO2: ethics, collaboration, communication; PEO3: innovators who solve CS challenges",4,"PEO1. To equip students with the necessary skills and knowledge to gain employment in industry or 
+to study in graduate schools.
+PEO2. To ingrain in students a strong code of professional and personal ethics, and the ability to 
+effectively and creatively collaborate and communicate in the workplace and beyond.
+PEO3. To cultivate students to become innovators and thinkers to solve computer science related 
+challenges.","[4, 4, 4, 6, 4, 11]",1,46.2,correct,
+What jobs have Computer Science graduates gotten?,"Software engineer, testing engineer, AI engineer, data engineer, business analyst, product owner, product development manager",5,"Software engineer, Testing engineer, AI engineer, Data engineer, Business analyst, Product owner, Product development manager.","[5, 4, 4, 4, 14, 4]",1,32.2,correct,
+Which graduate programs have CS students applied to?,"MSc/PhD Computer Science, MSc Data Science, MSc Bioinformatics",6-May,"MSc/PhD Computer Science  
+MSc Data Science  
+MSc Bioinformatics","[5, 4, 14, 13, 8, 4]",1,26.9,correct,
+How many credits are the general curriculum requirements?,40 credits and 10 noncredit items,6,"The general curriculum requirements consist of 40 credits and 10 noncredit items. Specifically:
+- The core curriculum includes 4 courses (16 credits) totaling 40 credits.
+- The exploratory curriculum consists of 6 courses, with up to 2 courses (8 credits) counted toward the major.","[6, 6, 7, 7, 7, 6]",1,42.5,correct,"40 credits and 10 noncredit items are right. The extra breakdown is wrong (core 16 credits, 'totaling 40'). Borderline."
+Which four core courses must students take?,"Global Humanities, Modern Vietnamese Culture and Society, Design and Systems Thinking, and one QUEST course",6,"Global Humanities, Modern Vietnamese Culture and Society, Design and Systems Thinking, Quantitative Understanding and Empirical Scientific Thinking (QUEST)","[6, 6, 8, 8, 11, 7]",1,35.8,correct,
+How many credits are the major requirements?,56 credits,7,56 credits,"[7, 7, 6, 7, 6, 8]",1,24.7,correct,
+What must a student complete to formally declare Computer Science as a major?,At least two Computer Science courses (MATH 202 also counts),7,"To formally declare Computer Science as their major, the student must complete at least two Computer Science courses (MATH 202 - Discrete Math is also counted).","[7, 7, 4, 7, 11, 11]",1,37.3,correct,
+How many courses and credits does the Computer Science minor require?,"Six courses, 24 credits",7,The Computer Science minor requires a total of 24 credits across six courses.,"[7, 7, 10, 11, 7, 11]",1,35.7,correct,
+What is the minimum major GPA to enroll in CS 401 Capstone I?,3.5 and approval of a successful application,9,3.5,"[9, 7, 11, 11, 7, 7]",1,31.7,correct,
+What degree is awarded after completing this program?,B.S. Computer Science (the handbook text wrongly says Applied Mathematics),6,Bachelor of Science in Applied Mathematics,"[6, 4, 4, 5, 17, 3]",1,21.6,incorrect,"Says Applied Mathematics. The handbook itself has this typo (page 6). Run F answered B.S. Computer Science, so this answer is unstable."
+"How many foundation courses are required, and which are they?","Five: Intro to Programming, Data Structures & Algorithms, Computer Organization, Discrete Math, Algorithms & Theory of Computing",10-Aug,"Five foundation courses are required:
+
+• Computer Science I: Introduction to Programming
+• Computer Science II: Data Structures & Algorithms
+• Discrete Mathematics
+• Computer Organization
+• Algorithms & Theory of Computing","[10, 6, 8, 8, 8, 6]",1,31.2,correct,
+How many advanced courses are required?,Four,7/8/2010,Four advanced courses are required.,"[10, 8, 10, 7, 8, 18]",1,30.9,correct,"Four. (Run F said five, so this answer is unstable.)"
+How many courses are in the Computer Science minor according to the flowchart?,"7 courses (the text says 6, the handbook is inconsistent)",10,7 courses,"[10, 10, 7, 10, 11, 11]",1,34.2,correct,
+What is the prerequisite of CS302 Algorithms & Theory of Computing?,CS201 and MATH 202,13/17,The prerequisite for CS302 Algorithms & Theory of Computing is CS201 & MATH 202.,"[17, 13, 17, 18, 17, 14]",1,33.7,correct,
+What is the prerequisite of CS311 Advanced Deep Learning?,CS313,13/18,The prerequisite for CS311 Advanced Deep Learning is CS313.,"[18, 13, 18, 13, 18, 18]",1,29.2,correct,
+Which programming language is mainly used in CS201?,Java (some Python/C++ also introduced),14,Java is the main programming language used in CS201.,"[14, 16, 13, 13, 13, 13]",1,29.2,correct,
+"Which course teaches finite automaton, pushdown automaton and Turing machine?",CS302 Algorithms & Theory of Computing,17,CS302: Algorithms & Theory of Computing,"[17, 17, 17, 18, 15, 14]",1,30.8,correct,
+Which courses are currently on holding?,"CS210, CS303, CS306, CS310, CS3xx Bioinformatics",13,"CS210 Computer Networks, CS306 Computer Security, CS303 Human-Computer Interaction, CS3xx Bioinformatics IS","[13, 13, 13, 13, 13, 13]",1,19.2,incomplete,Gives 4 of 5 courses. CS310 is missing.
+How much is the tuition fee for the Computer Science major?,Not in the handbook. A good system should say it does not know,0,I don't know based on the handbook.,"[7, 4, 10, 8, 4, 11]",,28.7,correct,
+What is the prerequisite of CS101 Introduction to Programming?,None (CS104 is recommended),13/14,None,"[13, 14, 13, 14, 13, 10]",1,31.9,correct,
+How often is CS104 Introduction to Computer Science offered?,Once every two years,13,Once every two years,"[13, 14, 13, 14, 13, 13]",1,25.6,correct,
+Which course has CORE105 as its prerequisite?,CS203 Computer Organization,13/14,CS203 Computer Organization has CORE105 as its prerequisite.,"[13, 14, 13, 16, 16, 13]",1,32.2,correct,
+"Which course covers Transfer Learning, GAN and Graph Neural Networks?",CS311 Advanced Deep Learning,18,CS311: Advanced Deep Learning,"[18, 18, 18, 18, 16, 17]",1,32.1,correct,
+How many credits is each course unless indicated otherwise?,4 credits (one semester),13,Each course is one semester (4 credits) unless indicated otherwise.,"[13, 7, 6, 6, 7, 7]",1,21.5,correct,
+,,,,,,,,
+CONFIG,llm=qwen2.5:1.5b embed=nomic-embed-text chunk=700 top_k=6 clean=1 struct=1 prefix=1 table=1 ocr=0 flow=1 bm25=1 rerank=0 strict=1 prompt=balanced,,,,,,,

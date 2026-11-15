@@ -16,6 +16,11 @@ RUNS = {
     "E v2 3b":         ["results_4_v2_3b.csv"],
     "F v3 1.5b":       ["results_5_v3_1.5b.csv"],
     "G v3 3b":         ["results_6_v3_3b.csv"],
+    "H no rerank":    ["results_8_no_rerank.csv"],
+    "I no BM25":      ["results_9_no_bm25.csv"],
+    "J no table":     ["results_10_no_table.csv"],
+    "K no flowchart": ["results_11_no_flowchart.csv"],
+    "L no struct":    ["results_12_no_struct.csv"],
 }
 LABELS = ["correct", "incomplete", "ambiguous", "incorrect"]
 N_QUESTIONS = 25
