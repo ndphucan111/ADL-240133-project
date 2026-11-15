@@ -1,0 +1,53 @@
+﻿question,expected,expected_page,answer,top_pages,hit,seconds,label,reason
+What is the major code of the B.S. Computer Science program?,7480101,1,The major code for the B.S. Computer Science program is 7480101.,"[1, 4, 7, 4, 7]",1,10.7,,
+What are the Program Educational Objectives (PEOs)?,"PEO1: skills for employment or graduate school; PEO2: ethics, collaboration, communication; PEO3: innovators who solve CS challenges",4,"The Program Educational Objectives (PEOs) for the B.S. Computer Science program are:
+
+1. To equip students with the necessary skills and knowledge to gain employment in industry or to study in graduate schools.
+2. To inculcate in students a strong code of professional and personal ethics, and the ability to effectively and creatively collaborate and communicate in the workplace and beyond.
+3. To cultivate students to become innovators and thinkers to solve computer science related challenges.","[2, 4, 5, 4, 4]",1,14.1,,
+What jobs have Computer Science graduates gotten?,"Software engineer, testing engineer, AI engineer, data engineer, business analyst, product owner, product development manager",5,"Computer Science graduates have successfully gained employment in various roles such as software engineer, testing engineer, AI engineer, data engineer, business analyst, product owner, and product development manager.","[5, 4, 5, 4, 4]",1,10.7,,
+Which graduate programs have CS students applied to?,"MSc/PhD Computer Science, MSc Data Science, MSc Bioinformatics",5/6,"CS students have successfully applied to graduate programs in the United States and Europe, including:
+
+- MSc/PhD Computer Science
+- MSc Data Science
+- MSc Bioinformatics","[6, 5, 4, 13, 4]",1,11.0,,
+How many credits are the general curriculum requirements?,40 credits and 10 noncredit items,6,The general curriculum requirements consist of 40 credits and 10 noncredit items.,"[7, 7, 2, 6, 7]",1,9.6,,
+Which four core courses must students take?,"Global Humanities, Modern Vietnamese Culture and Society, Design and Systems Thinking, and one QUEST course",6,"According to the provided context, students must take four core courses as part of the Core Curriculum. These courses are designed to ignite new ways of thinking and learning, build essential skills, and connect to Fulbright's intellectual community. The specific courses are not listed in the provided text, but they are part of the foundational education that students must complete in the first two or three semesters.","[8, 6, 5, 7, 8]",1,15.1,,
+How many credits are the major requirements?,56 credits,7,"The major requirements consist of 56 credits, which include:
+
+- Four advanced courses (16 credits)
+- Capstone Project (8 credits)
+- Two additional intermediate courses (8 credits)
+- Two additional advanced courses (8 credits)
+- One intermediate course (4 credits)
+- One advanced course (4 credits)
+- Six exploratory courses (24 credits)
+
+Total: 56 credits","[2, 7, 7, 7, 16]",1,12.7,,
+What must a student complete to formally declare Computer Science as a major?,At least two Computer Science courses (MATH 202 also counts),7,"To formally declare Computer Science as a major, the student must complete at least two Computer Science courses (MATH 202 - Discrete Math is also counted).","[7, 7, 4, 4, 8]",1,11.0,,
+How many courses and credits does the Computer Science minor require?,"Six courses, 24 credits",7,"The Computer Science minor requires students to complete a total of 24 credits across six courses. These courses include:
+
+- One programming course (4 credits)
+- One 100-level or 200-level CS course (4 credits)
+- CS 201 – Data Structures & Algorithms (4 credits)
+- One intermediate course (4 credits)
+- One 200-level or 300-level CS course (4 credits)
+- One advanced course (4 credits)","[7, 7, 11, 8, 7]",1,17.3,,
+What is the minimum major GPA to enroll in CS 401 Capstone I?,3.5 and approval of a successful application,9,The minimum major GPA required to enroll in CS 401 Capstone I is 3.5.,"[9, 2, 7, 7, 2]",1,8.1,,
+What degree is awarded after completing this program?,B.S. Computer Science (the handbook text wrongly says Applied Mathematics),6,A Bachelor of Science in Applied Mathematics is awarded following the successful completion of the program.,"[5, 5, 6, 2, 6]",1,9.4,,
+"How many foundation courses are required, and which are they?","Five: Intro to Programming, Data Structures & Algorithms, Computer Organization, Discrete Math, Algorithms & Theory of Computing",8/10,"The foundation courses required are Introduction to Programming, Data Structures & Algorithms, Computer Organization, Discrete Mathematics, and Algorithms & Theory of Computing.","[8, 8, 7, 7, 2]",1,11.9,,
+How many advanced courses are required?,Four,7/8/10,"To formally declare Computer Science as their major, the student must complete 16 advanced courses (4 credits each).","[8, 7, 7, 18, 2]",1,11.1,,
+How many courses are in the Computer Science minor according to the flowchart?,"7 courses (the text says 6, the handbook is inconsistent)",10,"According to the flowchart, the Computer Science minor requires students to take a total of six courses.","[7, 7, 11, 8, 13]",0,4.9,,
+What is the prerequisite of CS302 Algorithms & Theory of Computing?,CS201 and MATH 202,13/17,The prerequisite for CS302 Algorithms & Theory of Computing is CS201.,"[17, 12, 14, 14, 16]",1,12.3,,
+What is the prerequisite of CS311 Advanced Deep Learning?,CS313,13/18,The prerequisite for CS311 Advanced Deep Learning is CS313.,"[18, 18, 18, 18, 16]",1,10.8,,
+Which programming language is mainly used in CS201?,Java (some Python/C++ also introduced),14,The programming language primarily used in CS201 is Data Structures & Algorithms.,"[16, 13, 16, 14, 11]",1,10.8,,
+"Which course teaches finite automaton, pushdown automaton and Turing machine?",CS302 Algorithms & Theory of Computing,17,"The course that teaches finite automaton, pushdown automaton, and Turing machine is CS311: Advanced Deep Learning.","[17, 15, 15, 14, 18]",1,9.5,,
+Which courses are currently on holding?,"CS210, CS303, CS306, CS310, CS3xx Bioinformatics",13,"Based on the information provided, the course ""Computer Networks"" is currently on holding.","[13, 18, 8, 16, 15]",1,9.3,,
+How much is the tuition fee for the Computer Science major?,Not in the handbook. A good system should say it does not know,0,The tuition fee for the Computer Science major is not specified in the provided documents.,"[1, 7, 4, 4, 7]",,8.8,,
+What is the prerequisite of CS101 Introduction to Programming?,None (CS104 is recommended),13/14,The prerequisite for CS101 Introduction to Programming is CS104 Introduction to Computer Science.,"[14, 14, 14, 14, 11]",1,10.4,,
+How often is CS104 Introduction to Computer Science offered?,Once every two years,13,CS104 Introduction to Computer Science is offered once every two years.,"[13, 14, 13, 11, 12]",1,10.1,,
+Which course has CORE105 as its prerequisite?,CS203 Computer Organization,13/14,The course Computer Organization (CS203) has CORE105 as its prerequisite.,"[14, 14, 16, 13, 14]",1,12.0,,
+"Which course covers Transfer Learning, GAN and Graph Neural Networks?",CS311 Advanced Deep Learning,18,"The course that covers Transfer Learning, GAN, and Graph Neural Networks is Advanced Deep Learning (CS311).","[18, 18, 15, 18, 18]",1,9.6,,
+How many credits is each course unless indicated otherwise?,4 credits (one semester),13,Each course is one semester (4 credits) unless otherwise indicated.,"[7, 7, 7, 13, 11]",1,9.5,,
+
+CONFIG,ENGINE=baseline (run_pdf.py: llm=qwen2.5:0.5b chunk=1000 top_k=5)

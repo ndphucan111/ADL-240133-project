@@ -1,0 +1,1075 @@
+=== chunk 0 | page 1 ===
+Undergraduate Major Handbook 
+ 
+B.S. Computer Science 
+MAJOR CODE: 7480101 
+ 
+Version 1.0 (May 2025)
+
+=== chunk 1 | page 3 ===
+[Section: 1. The University Mission, Vision, and Graduate Attributes]
+1. The University Mission, Vision, and Graduate Attributes
+
+=== chunk 2 | page 3 ===
+[Section: Mission]
+Mission 
+The mission of Fulbright University Vietnam is to inspire new generations of leaders and ambitious 
+thinkers of diverse origin to serve Vietnamese society and contribute to a better world. As Vietnam’s 
+ﬁrst liberal arts university, founded on the promise of Vietnamese-American partnership, we practice 
+and teach continuous innovation in pursuit of bold, ethical answers to local and global challenges. Our 
+design for academic programs of exceptional quality embraces scientiﬁc, social, and humanistic modes 
+of inquiry and action, optimized for a dynamic and impatient future.
+
+=== chunk 3 | page 3 ===
+[Section: Vision]
+Vision 
+In 25 years, Fulbright University Vietnam will be the top choice for students in Vietnam and across 
+Asia. Our students will represent the full regional, disciplinary, socio-economic and gender diversity 
+we deeply value. 
+Supported by world-renowned faculty, our students will engage in research, internships and student 
+organizations in Vietnam and across the globe. In turn, they will pursue opportunities in the world’s 
+best companies and graduate programs. 
+As our students thrive, Vietnamese higher education will adapt alongside us, increasingly integrating 
+student-centered pedagogy and liberal arts approaches. Vietnamese youth will become more eﬀective
+
+=== chunk 4 | page 3 ===
+[Section: Vision]
+student-centered pedagogy and liberal arts approaches. Vietnamese youth will become more eﬀective 
+change-makers and leaders to tackle 21st-century challenges.
+
+=== chunk 5 | page 3 ===
+[Section: Graduate Attributes]
+Graduate Attributes 
+Knowledge - Students will acquire the knowledge of human perspectives and the natural world through: 
+ 
+GA1. Interdisciplinary Innovation - The liberal arts approach to integrating foundational knowledge and 
+methods across diverse ﬁelds of inquiry. 
+GA2. Disciplinary Depth - In-depth understanding, application, and synthesis of specialized knowledge 
+and skills from within a deﬁned major course of study. 
+GA3. Cultural Outlook - The awareness of and sensitivity to local and global challenges, with an 
+emphasis on understanding and developing Vietnam in the twenty-ﬁrst century.
+
+=== chunk 6 | page 3 ===
+[Section: Graduate Attributes]
+emphasis on understanding and developing Vietnam in the twenty-ﬁrst century. 
+ 
+Skills - Students will develop the following four intellectual and practical competencies for future success: 
+ 
+GA4. Creative Thinking - The understanding and synthesis of ideas, approaches, and expertise to ﬁnd 
+novel and innovative solutions. 
+GA5. Critical Reasoning - The systematic exploration of issues, questions, or objects through 
+comprehensive analyses of evidence, resulting in informed conclusions. 
+GA6. Eﬀective Communication - The clear and eﬀective presentation of meaning to increase knowledge, 
+foster understanding, or promote change in the listeners’ attitudes, values, beliefs, or behaviors.
+
+=== chunk 7 | page 3 ===
+[Section: Graduate Attributes]
+foster understanding, or promote change in the listeners’ attitudes, values, beliefs, or behaviors.
+GA7. Information Literacy - Strategically navigate, critically evaluate, and ethically use digital and non-
+digital information to understand and solve problems in a changing and complex information 
+environment. 
+Mindsets - Students will form positive attitudes that foster lifelong learning and commitment to society as good citizens 
+through the following associated competencies: 
+ 
+GA8. Ethical Responsibility - The recognition of the ethical ramiﬁcations of personal and public values 
+and actions, and understanding of how they impact the civic life of our communities.
+
+=== chunk 8 | page 3 ===
+[Section: Graduate Attributes]
+and actions, and understanding of how they impact the civic life of our communities. 
+GA9. Intellectual Curiosity - The pursuit of purposeful and ongoing learning to enhance knowledge and 
+improve oneself personally and professionally throughout their life. 
+GA10. Collaborative Engagement - The ability to work successfully as part of a team, characterized by 
+respectful interaction, adaptive thinking, and meaningful contribution.
+
+=== chunk 9 | page 4 ===
+[Section: 2. B.S. Computer Science: Program Description and Objectives]
+2. B.S. Computer Science: Program Description and Objectives
+
+=== chunk 10 | page 4 ===
+[Section: Program Description]
+Program Description 
+The Computer Science (CS) major prepares students with an adaptable skill set to respond to the 
+astonishing speed of technological change and develop solutions for the problems of today and 
+tomorrow. Using a student-centered, interdisciplinary, and future-focused approach, the Computer 
+Science major aims to educate the next generation of local leaders who will make a meaningful and 
+lasting societal impact both in Vietnam – one of the most quickly emerging and innovative technology 
+economies in the world – and beyond. As part of the major, students will be equipped with the 
+foundational knowledge in Computer Science and relevant disciplines. They will be exposed to
+
+=== chunk 11 | page 4 ===
+[Section: Program Description]
+foundational knowledge in Computer Science and relevant disciplines. They will be exposed to 
+essential areas of the CS discipline including theory, systems, and applications. They will learn about 
+the underlying mathematical ideas that are critical for computation, establish proficiency in the process 
+of designing systems and applications, gain experience in collecting and analyzing data using modern 
+technologies, and begin to develop an understanding for the role of users in the design of systems and 
+applications. Courses in Computer Science go beyond content to help students learn through direct
+
+=== chunk 12 | page 4 ===
+[Section: Program Description]
+applications. Courses in Computer Science go beyond content to help students learn through direct 
+experiences in projects and problems. Students will also have the opportunity to further focus their 
+studies by selecting a concentration, such as software engineering, artificial intelligence and machine 
+learning, data science, business analytics. The Computer Science major at Fulbright is designed to 
+prepare students for work in industry or continue their lifelong learning as well as potential graduate-
+level studies.
+
+=== chunk 13 | page 4 ===
+[Section: Program Educational Objectives (PEOs)]
+Program Educational Objectives (PEOs) 
+PEO1. To equip students with the necessary skills and knowledge to gain employment in industry or 
+to study in graduate schools. 
+PEO2. To ingrain in students a strong code of professional and personal ethics, and the ability to 
+eﬀectively and creatively collaborate and communicate in the workplace and beyond. 
+PEO3. To cultivate students to become innovators and thinkers to solve computer science related 
+challenges.
+
+=== chunk 14 | page 4 ===
+[Section: Program Learning Outcomes (PLOs)]
+Program Learning Outcomes (PLOs)
+Program Learning Outcomes are derived from the two main components of the curriculum: the Core 
+Curriculum and the Major Curriculum. Accordingly, they consist of Core Learning Outcomes (Core 
+LOs) and Major Learning Outcomes (Major LOs). These outcomes are presented in the following 
+tables and are also mapped to the FUV Graduate Attributes. 
+Short Name Core LOs FUV Graduate 
+Attribute 
+CoreLO 1 Students will be able to demonstrate global awareness and 
+respect for diverse perspectives. 
+GA1, GA3, GA8 
+CoreLO 2 Students will be able to locate and critically analyze information 
+and present evidence-based arguments in written and oral forms 
+GA1, GA4, GA5,
+
+=== chunk 15 | page 4 ===
+[Section: Program Learning Outcomes (PLOs)]
+and present evidence-based arguments in written and oral forms 
+GA1, GA4, GA5, 
+GA6, GA7, GA9 
+AvaiCoreLO 3 Students will be able to formulate quantitative inquiries and 
+apply appropriate mathematical, statistical, or scientific methods 
+to answer them. 
+GA1, GA4, GA5, 
+GA7, GA9 
+CoreLO 4 Students will be able to apply design and systems thinking 
+processes to analyze and solve real-world problems. 
+GA1, GA2, GA4, 
+GA5, GA9 
+CoreLO 5 Students will be able to demonstrate creative, collaborative, and 
+entrepreneurial thinking and practice. 
+GA1, GA6, GA10 
+ 
+Short Name Major LOs FUV Graduate 
+Attribute 
+MLO 1 Demonstrate an understanding of fundamental computer science
+
+=== chunk 16 | page 4 ===
+[Section: Program Learning Outcomes (PLOs)]
+GA1, GA6, GA10 
+ 
+Short Name Major LOs FUV Graduate 
+Attribute 
+MLO 1 Demonstrate an understanding of fundamental computer science 
+by illustrating core concepts, comparing methods, analyzing and 
+solving problems in both theory and systems. 
+GA2, GA4, GA5, 
+GA6, GA7 
+MLO 2 Explain emerging aspects of the computer science discipline (e.g., 
+artificial intelligence, machine learning, data science, business 
+analytics, digital media, etc.). 
+GA2, GA4, GA5, 
+GA6, GA7, GA9 
+MLO 3 Develop real-world applications (e.g., software systems and 
+frameworks, mobile apps, data pipeline, etc.) by using knowledge 
+of computer science and other disciplines. 
+GA1, GA3, GA8, 
+GA9, GA10
+
+=== chunk 17 | page 5 ===
+[Section: 3. Graduate Studies and Career Paths for the B.S. Computer Science]
+3. Graduate Studies and Career Paths for the B.S. Computer Science 
+ 
+Graduates with the B.S. Computer Science have successfully gained employment as: 
+ 
+• Software engineer 
+• Testing engineer 
+• AI engineer 
+• Data engineer 
+• Business analyst 
+• Product owner 
+• Product development manager
+Computer Science students have successfully applied to graduate programs in the United States and 
+Europe. These programs include: 
+ 
+• MSc/PhD Computer Science 
+• MSc Data Science 
+• MSc Bioinformatics
+
+=== chunk 18 | page 6 ===
+[Section: 4. Program Structure and Curriculum]
+4. Program Structure and Curriculum 
+All Fulbright undergraduate programs consist of multiple components: the Core curriculum, 
+exploratory curriculum, major curriculum, and elective curriculum. The Core curriculum serves as the 
+foundation of American liberal arts education. In the ﬁrst two or three semesters, students will take 
+four core courses designed to ignite new ways of thinking and learning, build essential skills, and 
+connect to Fulbright’s intellectual community. In these ﬁrst semesters, in addition to Core courses, 
+students are also encouraged to step out of their comfort zone to discover more fully where their
+
+=== chunk 19 | page 6 ===
+[Section: 4. Program Structure and Curriculum]
+students are also encouraged to step out of their comfort zone to discover more fully where their 
+interests and passions lie. Exploratory courses introduce them to diﬀerent majors across three broad 
+areas: Arts and Humanities, Social Sciences, and STEM. Once they choose a major, students take 
+focused major courses to develop depth and expertise in a speciﬁc ﬁeld of study. The major curriculum 
+provides structured learning pathways, allowing students to deepen their understanding of key 
+concepts, methodologies, and advances within their chosen discipline. This level of specialization 
+prepares students for advanced research, professional careers, or further study at the graduate level.
+
+=== chunk 20 | page 6 ===
+[Section: 4. Program Structure and Curriculum]
+prepares students for advanced research, professional careers, or further study at the graduate level. 
+In addition to the Core, exploratory, and major curricula, students can take elective courses that reﬂect 
+their personal interests and complement their major. These electives oﬀer ﬂexibility and broaden 
+students’ academic experience, encouraging interdisciplinary thinking and creativity. 
+Altogether, Fulbright’s curriculum is designed to foster both breadth and depth of knowledge, critical 
+thinking, and a lifelong love of learning—hallmarks of a liberal arts education.
+
+=== chunk 21 | page 6 ===
+[Section: Degree Requirements]
+Degree Requirements 
+A Bachelor of Science in Applied Mathematics is awarded following the successful completion of:
+
+=== chunk 22 | page 6 ===
+[Section: General Curriculum Requirements (40 credits & 10 noncredit items)1]
+General Curriculum Requirements (40 credits & 10 noncredit items)1 
+1. 4 Core courses (16 credits): Global Humanities, Modern Vietnamese Culture and Society, 
+Design and Systems Thinking, and one course in Quantitative Understanding and Empirical 
+Scientiﬁc Thinking (QUEST), a group of four courses: Quantitative Reasoning, Sci entiﬁc 
+Inquiry, Programming for Data Science and Visualization, and Introduction to Statistics.
+2. 6 Exploratory courses (24 credits): 2 courses, at the 100-level or 200-level, chosen from each of 
+the three categories: E1-Arts and Humanities, E2-Social Sciences, and STEM. Among these 6 
+courses, up to 2 courses (8 credits) can be counted toward the major.
+
+=== chunk 23 | page 6 ===
+[Section: General Curriculum Requirements (40 credits & 10 noncredit items)1]
+courses, up to 2 courses (8 credits) can be counted toward the major. 
+3. Experiential Learning. 
+4. Compulsory courses: Military Training (1 course), Physical Education (3 courses), and Political 
+Courses (5 courses).
+
+=== chunk 24 | page 7 ===
+[Section: Major Requirements (56 credits)]
+Major Requirements (56 credits) 
+• CS 101: Introduction to Programming (4 credits) 
+• CS 201: Data Structures & Algorithms (4 credits) 
+• CS 203: Computer Organization (4 credits) 
+• MATH 202: Discrete Math (4 credits) 
+• Three intermediate courses (12 credits) 
+• CS 302: Algorithms & Theory of Computing (4 credits) 
+• Four advanced courses (16 credits) 
+• Capstone I and Capstone II (8 credits) 
+OR two additional intermediate courses (8 credits) 
+OR two additional advanced courses (8 credits) 
+OR an additional intermediate course and an additional advanced course (8 credits) 
+ 
+To formally declare Computer Science as their major, the student must complete at least two
+
+=== chunk 25 | page 7 ===
+[Section: Major Requirements (56 credits)]
+To formally declare Computer Science as their major, the student must complete at least two 
+Computer Science courses (MATH 202 - Discrete Math is also counted).
+
+=== chunk 26 | page 7 ===
+[Section: Minor Requirements (24 credits)]
+Minor Requirements (24 credits) 
+The minor requires students to take a total of six courses: 
+• One programming course (4 credits) which is either 
+o CS 101: Introduction to Programming 
+o or CS 103: Programming for Data Science and Visualization 
+o or CS 104: Introduction to Computer Science 
+• One 100-level or 200-level CS course (4 credits) 
+• CS 201 – Data Structures & Algorithms (4 credits) 
+• One intermediate course (4 credits) 
+• One 200-level or 300-level CS course (4 credits) 
+• One advanced course (4 credits) 
+ 
+To formally declare a minor in Computer Science, the student must complete at least one Computer 
+Science course (MATH 202 - Discrete Math is also counted).
+
+=== chunk 27 | page 8 ===
+[Section: Major Outline: Curricular Structure and Progression]
+Major Outline: Curricular Structure and Progression 
+All students are encouraged to take the course Introduction to Computer Science ﬁrst to explore all 
+diﬀerent areas of computer science. Then the students are required to take ﬁve courses that will lay 
+out the foundation of programming, mathematics, and hardware. After having the knowledge from 
+these foundation courses, the students will continue their journey with three intermediate courses, 
+which are designed to cover the important and basic knowledge in the major aspects in computer 
+science. Following the completion of their foundation and intermediate courses, students will have
+
+=== chunk 28 | page 8 ===
+[Section: Major Outline: Curricular Structure and Progression]
+science. Following the completion of their foundation and intermediate courses, students will have 
+ﬂexibility in their choice of four elective advanced courses to explore their areas of interest deeper. 
+Finally, in the fourth year, students can choose to do the capstone to graduate with honors or to take 
+two more intermediate or advanced courses to graduate without honors.
+
+=== chunk 29 | page 8 ===
+[Section: Foundational Courses]
+Foundational Courses: 
+Sample Foundational Courses: 
+• Introduction to Programming 
+• Data Structures & Algorithms 
+• Computer Organization 
+• Discrete Mathematics 
+• Algorithms & Theory of Computing
+
+=== chunk 30 | page 8 ===
+[Section: Intermediate Courses]
+Intermediate Courses: 
+Sample Intermediate Courses: 
+• Software construction 
+• Programming Language Paradigms 
+• Operating Systems 
+• Computer Networks 
+• Introduction to Artiﬁcial Intelligence
+
+=== chunk 31 | page 8 ===
+[Section: Advanced Courses]
+Advanced Courses: 
+Sample Advanced Courses 
+• Foundations of Software Engineering 
+• Database Systems 
+• Computer Security 
+• Cloud Computing 
+• Human-Computer Interaction 
+• Computer Graphics 
+• Game Design & Development 
+• Machine Learning 
+• Deep Learning 
+• Advanced Deep Learning 
+• Computer Vision 
+• Natural Language Processing 
+• Optimization 
+• Computational Social Media
+• Bioinformatics
+
+=== chunk 32 | page 9 ===
+[Section: CS 401/402: Capstone Project]
+CS 401/402: Capstone Project 
+Eligibility criteria for enrollment in CS 401: Capstone I include a minimum major GPA of 3.5 and 
+approval of a successful application. More detailed guidelines for the Capstone in Computer Science 
+can be found in the Computer Science Capstone Handbook.
+
+=== chunk 33 | page 11 ===
+[Section: Sample Student Journeys for the Major and Minor]
+Sample Student Journeys for the Major and Minor 
+ 
+Sample Major Plan (15 equivalent courses) 
+Year 1 Year 2 Year 3 Year 4 
+Core Curriculum 
+Introduction to CS 
+Computer Science I 
+2 ELECTIVES 
+ 
+Discrete Math 
+Computer Science II 
+Computer Organization 
+Intermediate CS course 
+4 ELECTIVES 
+Algorithms & Theory of 
+Computing 
+Intermediate CS course 
+Intermediate CS course 
+Advanced CS course 
+Advanced CS course 
+3 ELECTIVES 
+Advanced CS course 
+Advanced CS course 
+Capstone I & II (or two elective 
+intermediate/advanced courses) 
+4 ELECTIVES 
+ 
+Sample Minor Plan 
+Year 1 Year 2 Year 3 Year 4 
+Core Curriculum 
+Introduction to CS 
+1 Major course 
+2 ELECTIVES 
+Computer Science I
+
+=== chunk 34 | page 11 ===
+[Section: Sample Student Journeys for the Major and Minor]
+4 ELECTIVES 
+ 
+Sample Minor Plan 
+Year 1 Year 2 Year 3 Year 4 
+Core Curriculum 
+Introduction to CS 
+1 Major course 
+2 ELECTIVES 
+Computer Science I 
+Computer Science II 
+3 Major courses 
+3 ELECTIVES 
+Intermediate CS course 
+Intermediate CS course 
+5 Major courses 
+1 ELECTIVES 
+Advanced CS course 
+5 Major courses 
+2 ELECTIVES
+
+=== chunk 35 | page 11 ===
+[Section: Course Alignment with the Program Learning Outcomes (PLOs)]
+Course Alignment with the Program Learning Outcomes (PLOs) 
+PLO1. Demonstrate an understanding of fundamental computer science by illustrating core concepts, 
+comparing methods, analyzing and solving problems in both theory and systems. 
+PLO2. Explain emerging aspects of the computer science discipline (e.g., artiﬁcial intelligence, 
+machine learning, data science, business analytics, digital media, etc.). 
+PLO3. Develop real-world applications (e.g., software systems and frameworks, mobile apps, data 
+pipeline, etc.) by using knowledge of computer science and other disciplines. 
+COURSE 
+CODE COURSE TITLE PLO1 PLO2 PLO3 
+CS101 Introduction to Programming R I
+
+=== chunk 36 | page 11 ===
+[Section: Course Alignment with the Program Learning Outcomes (PLOs)]
+COURSE 
+CODE COURSE TITLE PLO1 PLO2 PLO3 
+CS101 Introduction to Programming R I 
+CS103 Programming for Data Science and 
+Visualization R I 
+CS104 Introduction to Computer Science I I 
+CS201 Data Structures & Algorithms R I 
+CS203 Computer Organization R I 
+CS207 Software Construction R I 
+CS208 Machine Learning for Data Science R I 
+CS211 Operating Systems R I 
+CS212 Programming Language Paradigms R I 
+CS301 Foundations of Software Engineering M R M/A
+CS302 Algorithms & Theory of Computing M I 
+CS303 Human-Computer Interaction M I 
+CS304 Database Systems M I 
+CS306 Computer Security M R M/A 
+CS307 Machine Learning M I 
+CS310 Web Applications & Human-Computer 
+Interaction M R M/A
+
+=== chunk 37 | page 11 ===
+[Section: Course Alignment with the Program Learning Outcomes (PLOs)]
+CS306 Computer Security M R M/A 
+CS307 Machine Learning M I 
+CS310 Web Applications & Human-Computer 
+Interaction M R M/A 
+CS311 Advanced Deep Learning M R M/A 
+CS312 Natural Language Processing M R M/A 
+CS313 Deep Learning for AI M R 
+CS3xx Bioinformatics M I M/A 
+ 
+MATH308 Statistical Learning M I 
+MATH301 Optimization M I 
+ENG301 Computer Vision M I M/A 
+CS 401/402 Capstone I and II M/A M/A M/A 
+ 
+I: Introduced R: Reinforced/Practiced M: Mastery A: Assessment opportunity
+
+=== chunk 38 | page 12 ===
+[Section: 5. Teaching, Learning, and Assessment]
+5. Teaching, Learning, and Assessment 
+ 
+Teaching and assessment in the Computer Science major are designed on the principle of active and 
+collaborative learning. In addition to summative methods, courses rely on continuous formative 
+assessment of student learning through discussion (instructor-led and student-led), in-class activities, 
+and applied learning. 
+ 
+Program Learning Outcomes Teaching and 
+Learning Methods 
+Assessment Examples 
+1. Demonstrate an understanding of 
+fundamental computer science by 
+illustrating core concepts, comparing 
+methods, analyzing and solving problems 
+in both theory and systems. 
+Lecture 
+Lab 
+Worksheet 
+Group discussion 
+Programming test 
+Quiz 
+Exam
+
+=== chunk 39 | page 12 ===
+[Section: 5. Teaching, Learning, and Assessment]
+methods, analyzing and solving problems 
+in both theory and systems. 
+Lecture 
+Lab 
+Worksheet 
+Group discussion 
+Programming test 
+Quiz 
+Exam 
+Group presentation 
+Capstone 
+2. Explain emerging aspects of the 
+computer science discipline (e.g., artificial 
+intelligence, machine learning, data 
+science, business analytics, digital media, 
+etc.). 
+Reading 
+Lecture 
+Lab 
+Group discussion 
+Class project 
+Quiz 
+Exam 
+Group presentation 
+Capstone 
+3. Develop real-world applications (e.g., 
+software systems and frameworks, 
+mobile apps, data pipeline, etc.) by using 
+Lecture 
+Lab 
+Field trip 
+Class project 
+Presentation 
+Capstone
+knowledge of computer science and 
+other disciplines.
+
+=== chunk 40 | page 13 ===
+[Section: 6. Course Catalogue]
+6. Course Catalogue 
+*Subject to staffing 
+** All courses are one semester (4 credits) unless indicated otherwise 
+ 
+COURSE 
+CODE COURSE TITLE CROSS-
+LISTING 
+AVAILABILITY
+(tentative) PREREQUISITES 
+CS101 Introduction to Programming Once a year None 
+CS103 Programming for Data Science and 
+Visualization Twice a year None 
+CS104 Introduction to Computer Science Once every two 
+years None 
+CS201 Data Structures & Algorithms Once a year CS101 
+CS203 Computer Organization Once a year CORE105 
+CS207 Software Construction Once a year CS201 
+CS208 Machine Learning for Data Science Once a year CS103 
+CS210 Computer Networks On holding CS201 
+CS211 Operating Systems Once a year CS201
+
+=== chunk 41 | page 13 ===
+[Section: 6. Course Catalogue]
+CS208 Machine Learning for Data Science Once a year CS103 
+CS210 Computer Networks On holding CS201 
+CS211 Operating Systems Once a year CS201 
+CS212 Programming Language Paradigms Once a year CS201 
+CS301 Foundations of Software Engineering Once a year CS207 
+CS302 Algorithms & Theory of Computing Once a year CS201, MATH202 
+CS303 Human-Computer Interaction On holding One 200-level CS 
+course 
+CS304 Database Systems Once a year CS201 
+CS306 Computer Security On holding CS211 
+CS307 Machine Learning Once a year CS201 
+CS310 Web Applications & Human-Computer 
+Interaction On holding CS201 
+CS311 Advanced Deep Learning Once a year CS313
+
+=== chunk 42 | page 13 ===
+[Section: 6. Course Catalogue]
+CS310 Web Applications & Human-Computer 
+Interaction On holding CS201 
+CS311 Advanced Deep Learning Once a year CS313 
+CS312 Natural Language Processing Once a year CS201, MATH103 
+CS313 Deep Learning for AI Once a year CS208 
+CS3xx Bioinformatics IS On holding One 200-level CS 
+course 
+ 
+Courses in other majors cross-listed with Computer Science 
+MATH308 Statistical Learning CS TBA 
+MATH301 Optimization CS TBA 
+ENG301 Computer Vision CS TBA
+
+=== chunk 43 | page 13 ===
+[Section: Course Descriptions]
+Course Descriptions
+
+=== chunk 44 | page 13 ===
+[Section: Course Descriptions > CS101: Introduction to Programming]
+CS101: Introduction to Programming
+Prerequisites: None (CS104 is recommended) 
+This course aims to equip students with the skills necessary to solve computational problems using a 
+high-level programming language. Students will develop their abilities to use (i) fundamental 
+programming constructs such as branching statements, loops, functions, and recursion and (ii) abstract 
+data types such as lists and maps. Students will also be exposed to basic concepts of object-oriented 
+programming.
+
+=== chunk 45 | page 14 ===
+[Section: Course Descriptions > CS103: Programming for Data Science and Visualization]
+CS103: Programming for Data Science and Visualization 
+Prerequisites: None 
+The Programming for Data Science and Visualization course aims at providing students with a set of 
+skills to analyze the nature of data across diﬀerent domains. The course demonstrates data 
+visualization by understanding, questioning, and problematizing how data are generated, analyzed, and 
+used. The students will be able to apply concepts and skills to visualize data, interpret the ﬁndings, 
+and examine the impacts of data-driven decision. The course will also get the students familiar with 
+Python programming language and its libraries to analyze, visualize and discover data insight leading
+
+=== chunk 46 | page 14 ===
+[Section: Course Descriptions > CS103: Programming for Data Science and Visualization]
+Python programming language and its libraries to analyze, visualize and discover data insight leading 
+to a proper data-driven decision-making process.
+
+=== chunk 47 | page 14 ===
+[Section: Course Descriptions > CS104: Introduction to Computer Science]
+CS104: Introduction to Computer Science 
+Prerequisites: None 
+The course Introduction to Computer Science aims at teaching students the basics of computer 
+science, programming, and data science, along with potential career paths in the ﬁelds. Computer 
+science is the study of how computers work and how to use them for diﬀerent purposes. Programming 
+is the skill of writing instructions for computers to follow. The students will be able to create their 
+own programs that can perform various tasks, understand how computers solve problems, and apply 
+their knowledge and skills to any ﬁeld that involves computing. The course will also help learners
+
+=== chunk 48 | page 14 ===
+[Section: Course Descriptions > CS104: Introduction to Computer Science]
+their knowledge and skills to any ﬁeld that involves computing. The course will also help learners 
+develop their logical thinking, problem-solving, and creativity skills that are essential for any discipline 
+or career. The course covers diverse topics, including data science, database, web development, 
+computer networks and systems.
+
+=== chunk 49 | page 14 ===
+[Section: Course Descriptions > CS201: Data Structures & Algorithms]
+CS201: Data Structures & Algorithms 
+Prerequisites: CS101 
+How do we write large programs to solve real-world problems correctly and eﬀiciently? How do we 
+design programs that can be tested and extended easily? This course aims to achieve these goals by 
+expanding the content from CS101 (Introduction to Programming), with a greater focus on theoretical 
+concepts, abstraction, and larger programs. Topics include object-oriented programming (classes, 
+objects, subclasses, and inheritances), unit testing and refactoring, fundamental data structures (arrays, 
+lists, stacks, queues, trees, hash tables, and graphs), basic algorithms (sorting and searching) and their
+
+=== chunk 50 | page 14 ===
+[Section: Course Descriptions > CS201: Data Structures & Algorithms]
+lists, stacks, queues, trees, hash tables, and graphs), basic algorithms (sorting and searching) and their 
+analysis. Java is the main programming language used in the course, but some Python/C++ 
+implementations are also introduced.
+
+=== chunk 51 | page 14 ===
+[Section: Course Descriptions > CS203: Computer Organization]
+CS203: Computer Organization 
+Prerequisites: CORE105– Design & Systems Thinking 
+Computing systems, such as mobile phones, laptops or personal computers, have been an important 
+part of human beings’ everyday life. How are computing systems are designed and implemented? In 
+principle, computing systems often involve many layers of abstraction, from gates and circuits through 
+machine and assembly code to software libraries and applications. This course introduces students to
+the abstract design and implementation of computer systems from the digital level in the hardware 
+upwards to the interface between the hardware and the software. In particular, the course starts by
+
+=== chunk 52 | page 14 ===
+[Section: Course Descriptions > CS203: Computer Organization]
+upwards to the interface between the hardware and the software. In particular, the course starts by 
+revisiting the concept of bits and introducing arithmetic and logical operations on bits. Next, it takes 
+the students from the building of logic gates based on the transistor as a switch, gated latches to more 
+complex logic structures. The knowledge is then applied to implement memory and a ﬁnite state 
+machine. From there, students study the instruction cycle that the central processing unit (CPU) of a 
+computer follows. As an example, students study a particular computer that is able to capture the
+
+=== chunk 53 | page 14 ===
+[Section: Course Descriptions > CS203: Computer Organization]
+computer follows. As an example, students study a particular computer that is able to capture the 
+important structures of a modern computer, while simple enough to facilitate complete understanding 
+and hands-on programming experiences. Students also explore decisions and tradeoﬀs involved in the 
+design and implementation. Applied projects and/or lab assignments might include the design and 
+simulation of a CPU, and the tools used to program low-level systems.
+
+=== chunk 54 | page 15 ===
+[Section: Course Descriptions > CS204: Introduction to Artiﬁcial Intelligence]
+CS204: Introduction to Artiﬁcial Intelligence 
+Prerequisites: Take at least one 100-level CS course 
+This course introduces students to the basic knowledge on Artiﬁcial intelligence (AI). This is a research 
+ﬁeld that studies how to realize the intelligent human behaviors on a computer. The ultimate goal of 
+AI is to make a computer that can learn, plan, and solve problems autonomously. In this course, 
+student will learn the foundational principles and practice implementing some of these applications 
+including representation, problem solving, and learning methods of artiﬁcial intelligence. Accordingly,
+
+=== chunk 55 | page 15 ===
+[Section: Course Descriptions > CS204: Introduction to Artiﬁcial Intelligence]
+including representation, problem solving, and learning methods of artiﬁcial intelligence. Accordingly, 
+students should be able to develop intelligent systems by assembling solutions to concrete 
+computational problems; understand the role of knowledge representation, problem solving, and 
+learning in intelligent-system engineering; and appreciate the role of problem solving, vision, and 
+language in understanding human intelligence from a computational perspective.
+
+=== chunk 56 | page 15 ===
+[Section: Course Descriptions > CS207: Software Construction]
+CS207: Software Construction 
+Prerequisites: CS201 
+This course provides students the opportunities to strengthen their understanding of object-oriented 
+concepts and to build their skills and experience in developing software systems by applying OO 
+concepts and design principles. Topics covered in this course include class, object, information hiding, 
+encapsulation, inheritance, interface, polymorphism, design patterns, multi-threading, database 
+connection, unit testing, and Uniﬁed Modeling Language (UML). Students will work in teams to 
+practice designing software using UML models such as use-case, sequence, and class diagrams. They
+
+=== chunk 57 | page 15 ===
+[Section: Course Descriptions > CS207: Software Construction]
+practice designing software using UML models such as use-case, sequence, and class diagrams. They 
+will also implement the design via building Android applications using Java.
+
+=== chunk 58 | page 15 ===
+[Section: Course Descriptions > CS208: Machine Learning for Data Science]
+CS208: Machine Learning for Data Science 
+Prerequisites: CS103 
+The course Machine Learning for Data Science aims at providing students with a basic understanding 
+of the principles of machine learning algorithms and deriving practical solutions using predictive 
+analytics. The course demonstrates mathematical concepts and hands-on skills required for the 
+algorithms that are typically used in practice. The students will be able to apply concepts and skills to 
+analyze data across diﬀerent domains, interpret the ﬁndings, then build learning systems and 
+comprehend their performance. Topics include supervised learning (Naïve Bayes classiﬁcation,
+
+=== chunk 59 | page 15 ===
+[Section: Course Descriptions > CS208: Machine Learning for Data Science]
+comprehend their performance. Topics include supervised learning (Naïve Bayes classiﬁcation, 
+Decision Tree, Random Forest, Support Vector Machine, Deep Neural Network); unsupervised 
+learning (K-means clustering, Hierarchical clustering). The course will also discuss recent applications 
+of machine learning, such as to robotics, autonomous driving systems, face and speech recognition, 
+text and web data processing, etc.
+
+=== chunk 60 | page 16 ===
+[Section: Course Descriptions > CS210: Computer Networks]
+CS210: Computer Networks 
+Prerequisites: CS201 
+This course is an in-depth study of computer networks. Using the Internet as a vehicle this course 
+explores issues, concepts and techniques that are essential in building modern computer networks 
+with emphasis on architectures, protocols and implementation issues. The main objective of this 
+course is to gain a solid knowledge on technologies that build the infrastructure for modern networked 
+applications such as cloud computing, Web browsing, social networking, multimedia streaming, etc.
+
+=== chunk 61 | page 16 ===
+[Section: Course Descriptions > CS211: Operating Systems]
+CS211: Operating Systems 
+Prerequisites: CS201 
+The operating system serves as an interface between user programs and hardware devices. 
+Understanding its workings is essential for both application developers, as it aids in enhancing 
+application performance, and systems developers, who may need to extend or create new operating 
+systems for emerging devices. This course addresses this necessity by introducing fundamental 
+concepts and principles of modern operating systems. The course is divided into three main parts. 
+The ﬁrst part delves into concurrency, covering topics such as processes, threads, CPU scheduling,
+
+=== chunk 62 | page 16 ===
+[Section: Course Descriptions > CS211: Operating Systems]
+The ﬁrst part delves into concurrency, covering topics such as processes, threads, CPU scheduling, 
+context switching, synchronization, and deadlock. The second part explores memory management 
+issues, including linking, allocation, address translation, segmentation, paging, and swapping. The third 
+part introduces ﬁle systems, discussing disk management, ﬁle organization, and crash recovery. After 
+these three parts, the course will conclude with advanced topics such as scalability, virtualization, 
+security, and support for distributed computing.
+
+=== chunk 63 | page 16 ===
+[Section: Course Descriptions > CS212: Programming Languages]
+CS212: Programming Languages 
+Prerequisites: CS201 
+How many programming languages should a professional software developer know? The answer is 
+often “the more, the better”, as exposure to multiple programming languages provides a wider array 
+of options for solving speciﬁc problems. However, it is impractical to learn all or even most 
+programming languages, given the sheer number of languages and their continuous evolution. This 
+course addresses this challenge by delving into the foundational concepts of modern programming 
+languages and oﬀering a comparative study of several signiﬁcant language groups known as
+
+=== chunk 64 | page 16 ===
+[Section: Course Descriptions > CS212: Programming Languages]
+languages and oﬀering a comparative study of several signiﬁcant language groups known as 
+programming paradigms. Students will explore various programming paradigms, such as imperative, 
+object-oriented, declarative, and functional programming, to gain insights into their strengths, 
+weaknesses, and optimal use cases. In addition, the course also introduces the design of compilers to 
+implement essential programming language concepts, helping students optimize their code a nd 
+understand errors and bugs at a deeper level. Furthermore, advanced topics such as meta -
+programming and program synthesis are also discussed, enabling students to envision the evolving
+
+=== chunk 65 | page 16 ===
+[Section: Course Descriptions > CS212: Programming Languages]
+programming and program synthesis are also discussed, enabling students to envision the evolving 
+landscape of programming languages in the future.
+
+=== chunk 66 | page 16 ===
+[Section: Course Descriptions > CS301: Foundations of Software Engineering]
+CS301: Foundations of Software Engineering 
+Prerequisites: CS207 
+Large scale systems, including web-based applications, are fundamentally diﬀerent and more complex 
+than short programs. Software engineering is the study of how to develop large-scale software systems. 
+In this course, students will learn about and practice a variety of interrelated activities and processes, 
+including requirements analysis, system design, documentation, implementation, and testing. Students 
+will also participate in and contribute to a major software project. Projects might vary from year to
+year depending on student and faculty interests, and could include mobile, web, game, or embedded 
+systems.
+
+=== chunk 67 | page 17 ===
+[Section: Course Descriptions > CS302: Algorithms & Theory of Computing]
+CS302: Algorithms & Theory of Computing 
+Prerequisites: CS201 & MATH 202 
+Are there any eﬀicient algorithms to ﬁnd the shortest path between two cities on a map, schedule 
+courses at FUV, or detect if a computer program is a virus or not? This Algorithms and Theory of 
+Computing course aims to provide students with concepts and techniques to address these questions. 
+Three common techniques (divide-and-conquer, greedy, and dynamic programming) and some 
+algorithms on graphs are introduced to help students learn how to design eﬀicient algorithms for 
+problems in practice. Students will also learn basic computational models (ﬁnite automaton, push-
+
+=== chunk 68 | page 17 ===
+[Section: Course Descriptions > CS302: Algorithms & Theory of Computing]
+problems in practice. Students will also learn basic computational models (ﬁnite automaton, push-
+down automaton, and Turing machine) to understand the concepts of decidability and tractability. By 
+that, students will be able to prove if a problem is hard to solve eﬀiciently or even cannot be solved 
+by any algorithm.
+
+=== chunk 69 | page 17 ===
+[Section: Course Descriptions > CS303: Human-Computer Interaction]
+CS303: Human-Computer Interaction 
+Prerequisites: Take one 200-level CS course 
+What makes a smartphone app, a website, or any physical product, easy to use? And how can we 
+design such user interfaces in hardware and software? The ﬁeld of human-computer interaction (HCI) 
+is concerned with these questions. In this course, students will learn about approaches to eﬀectively 
+design interfaces (for example through lo-ﬁdelity prototyping and user-centered design methods) and 
+will be exposed to diﬀerent techniques to assess usability (including interface analysis and heuristic 
+evaluations). Students will also have opportunities to design and assess their own software interfaces.
+
+=== chunk 70 | page 17 ===
+[Section: Course Descriptions > CS304: Database systems]
+CS304: Database systems 
+Prerequisites: CS201 
+This course oﬀers a comprehensive examination of the design and implementation of relational 
+database management systems (DBMS). Teaches the logical organization of databases, E_R design, 
+normalization and use of SQL for data description and retrieval, in cluding triggers and stored 
+procedures, concurrency and security issues and typical solutions. Includes a major project building 
+web interfaces to databases using PHP and MySQL. Introduction to NoSQL solutions.
+
+=== chunk 71 | page 17 ===
+[Section: Course Descriptions > CS306: Computer Security]
+CS306: Computer Security 
+Prerequisites: CS211 
+This course is a comprehensive study of the security principles and practices for network and 
+computer systems. Topics to be covered include basic security concepts, common attacking 
+techniques, basic cryptographic tools and secure protocols. Defense techniques such as authentication, 
+access control and network intrusion detection will also be discussed. An introduction to networking 
+technologies and principles will also be covered. Hands-on laboratories will be used to reinforce 
+student learning of concepts, principles and practices that are important to the security of networks 
+and computer systems.
+
+=== chunk 72 | page 17 ===
+[Section: Course Descriptions > CS307: Machine Learning]
+CS307: Machine Learning 
+Prerequisites: CS201
+Machine learning is concerned with the question of how to construct programs that automatically 
+improve their performance through experience. This course introduces the principles underlying the 
+design of existing supervised and unsupervised machine learning algorithms. Topics to be covered 
+include the following: 
+- Supervised learning models and methods: Decision trees, neural networks, nearest-neighbor 
+algorithms, Bayesian learning, Hidden Markov Models, support vector machines 
+- Unsupervised learning: Clustering 
+- Reinforcement learning: Markov Decision Processes, online supervised learning, certainty
+
+=== chunk 73 | page 17 ===
+[Section: Course Descriptions > CS307: Machine Learning]
+- Unsupervised learning: Clustering 
+- Reinforcement learning: Markov Decision Processes, online supervised learning, certainty 
+equivalent learning, temporal diﬀerence learning, Q-learning 
+- General techniques: Feature selection, cross-validation, maximum likelihood estimation, 
+expectation-maximization, gradient descent, ensemble learning
+
+=== chunk 74 | page 18 ===
+[Section: Course Descriptions > CS311: Advanced Deep Learning]
+CS311: Advanced Deep Learning 
+Prerequisites: CS313 
+The course Advanced Deep Learning aims at providing students with a good understanding of 
+advanced architectures of deep neural networks and algorithms, along with deriving practical AI 
+solutions in various domains such as economics, ﬁntech, computer vision, natural language 
+processing. The course demonstrates mathematical concepts and hands-on skills required for the 
+algorithms that are typically used in practice. The students will be able to apply concepts and skills to 
+analyze complex data across diﬀerent domains, then build learning systems and comprehend their
+
+=== chunk 75 | page 18 ===
+[Section: Course Descriptions > CS311: Advanced Deep Learning]
+analyze complex data across diﬀerent domains, then build learning systems and comprehend their 
+performance. The course covers diverse topics including Transfer Learning, Generative Adversarial 
+Network (GAN), Reinforcement Learning (RL), Attention and Transformer Networks, Graph Neural 
+Network (GNN). On the other hand, advanced applications of deep learning will also be addressed, 
+such as natural language processing, robotics, autonomous driving systems, time-series applications, 
+etc.
+
+=== chunk 76 | page 18 ===
+[Section: Course Descriptions > CS312: Natural Language Processing]
+CS312: Natural Language Processing 
+Prerequisites: CS201 and MATH103 
+This course is designed to introduce students to the fundamental concepts and ideas in natural 
+language processing (NLP) which is a subﬁeld of linguistics, computer science, and artiﬁcial 
+intelligence. Students will study the computational properties of natural languages and algorithms to 
+interpret and manipulate these languages. The course starts with simple statistical models and word 
+embeddings. Then the focus is shifted to the architecture of large language models. The ﬁnal part of 
+the course is about how pre-trained large language models can be utilized to solve speciﬁc tasks. In
+
+=== chunk 77 | page 18 ===
+[Section: Course Descriptions > CS312: Natural Language Processing]
+the course is about how pre-trained large language models can be utilized to solve speciﬁc tasks. In 
+addition, applications such as translation, summarization, extracting information, and question 
+answering are also introduced and discussed.
+
+=== chunk 78 | page 18 ===
+[Section: Course Descriptions > CS313: Deep Learning for AI]
+CS313: Deep Learning for AI 
+Prerequisites: CS208 
+The course Deep Learning for Artiﬁcial Intelligence aims at providing students with a good 
+understanding of deep neural networks and algorithms, along with deriving practical AI solutions in 
+various domains such as economics, ﬁntech, computer vision, natural language processing. The course 
+demonstrates mathematical concepts and hands-on skills required for the algorithms that are typically 
+used in practice. The students will be able to apply concepts and skills to analyze data across diﬀerent 
+domains, then build learning systems and comprehend their performance. The course covers diverse
+
+=== chunk 79 | page 18 ===
+[Section: Course Descriptions > CS313: Deep Learning for AI]
+domains, then build learning systems and comprehend their performance. The course covers diverse 
+topics including introductive deep learning, popular deep neural networks, data augmentation, transfer 
+learning and recurrent neural networks. On the other hand, recent applications of deep learning will
+also be addressed, such as stock/cryptocurrency price prediction with time series data, natural 
+language processing, robotics, autonomous driving systems, etc.
+
+=== chunk 80 | page 19 ===
+[Section: Course Descriptions > CS3xx: Bioinformatics]
+CS3xx: Bioinformatics 
+Prerequisites: One 200-level CS course 
+Recent advancements in biotechnology, particularly in high throughput techniques, have enabled us 
+to collect an unprecedently volume of biological data. This course provides a broaden introduction to 
+how we can analyze these data to answer research questio ns in biology and medicine. From the 
+computational side, this course focuses on algorithms and machine learning methods to analyze 
+biological data eﬀiciently. From the biological side, this course focuses on how we can leverage the 
+data to discover mechanisms of biological processes or diseases. Topics of this course include
+
+=== chunk 81 | page 19 ===
+[Section: Course Descriptions > CS3xx: Bioinformatics]
+data to discover mechanisms of biological processes or diseases. Topics of this course include 
+sequencing data analysis, gene expression data analysis, gene regulation data analysis, gene function 
+analysis, biological data clustering, biological network analysis, and biological databases. Applications 
+of these topics in studying cancer, autism, gene therapy, or drug discovery are also introduced. 
+APPENDIX I 
+The Computer Science Program Curriculum has been constructed with reference to programs: 
+• BS Computer Science, Stanford University 
+• BS Computer Science, Carnegie Mellon University 
+• BS Computer Science, Cornell University
+
+=== chunk 82 | page 13 ===
+[Section: Course Catalogue table]
+CS101 Introduction to Programming: availability = Once a year; prerequisites = None
+
+=== chunk 83 | page 13 ===
+[Section: Course Catalogue table]
+CS103 Programming for Data Science and Visualization: availability = Twice a year; prerequisites = None
+
+=== chunk 84 | page 13 ===
+[Section: Course Catalogue table]
+CS104 Introduction to Computer Science: availability = Once every two years; prerequisites = None
+
+=== chunk 85 | page 13 ===
+[Section: Course Catalogue table]
+CS201 Data Structures & Algorithms: availability = Once a year; prerequisites = CS101
+
+=== chunk 86 | page 13 ===
+[Section: Course Catalogue table]
+CS203 Computer Organization: availability = Once a year; prerequisites = CORE105
+
+=== chunk 87 | page 13 ===
+[Section: Course Catalogue table]
+CS207 Software Construction: availability = Once a year; prerequisites = CS201
+
+=== chunk 88 | page 13 ===
+[Section: Course Catalogue table]
+CS208 Machine Learning for Data Science: availability = Once a year; prerequisites = CS103
+
+=== chunk 89 | page 13 ===
+[Section: Course Catalogue table]
+CS210 Computer Networks: availability = On holding; prerequisites = CS201
+
+=== chunk 90 | page 13 ===
+[Section: Course Catalogue table]
+CS211 Operating Systems: availability = Once a year; prerequisites = CS201
+
+=== chunk 91 | page 13 ===
+[Section: Course Catalogue table]
+CS212 Programming Language Paradigms: availability = Once a year; prerequisites = CS201
+
+=== chunk 92 | page 13 ===
+[Section: Course Catalogue table]
+CS301 Foundations of Software Engineering: availability = Once a year; prerequisites = CS207
+
+=== chunk 93 | page 13 ===
+[Section: Course Catalogue table]
+CS302 Algorithms & Theory of Computing: availability = Once a year; prerequisites = CS201, MATH202
+
+=== chunk 94 | page 13 ===
+[Section: Course Catalogue table]
+CS303 Human-Computer Interaction: availability = On holding; prerequisites = One 200-level CS course
+
+=== chunk 95 | page 13 ===
+[Section: Course Catalogue table]
+CS304 Database systems: availability = Once a year; prerequisites = CS201
+
+=== chunk 96 | page 13 ===
+[Section: Course Catalogue table]
+CS306 Computer Security: availability = On holding; prerequisites = CS211
+
+=== chunk 97 | page 13 ===
+[Section: Course Catalogue table]
+CS307 Machine Learning: availability = Once a year; prerequisites = CS201
+
+=== chunk 98 | page 13 ===
+[Section: Course Catalogue table]
+CS310 Web Applications & Human-Computer: availability = On holding; prerequisites = CS201
+
+=== chunk 99 | page 13 ===
+[Section: Course Catalogue table]
+CS311 Advanced Deep Learning: availability = Once a year; prerequisites = CS313
+
+=== chunk 100 | page 13 ===
+[Section: Course Catalogue table]
+CS312 Natural Language Processing: availability = Once a year; prerequisites = CS201, MATH103
+
+=== chunk 101 | page 13 ===
+[Section: Course Catalogue table]
+CS313 Deep Learning for AI: availability = Once a year; prerequisites = CS208
+
+=== chunk 102 | page 13 ===
+[Section: Course Catalogue table]
+CS3xx Bioinformatics IS: availability = On holding; prerequisites = One 200-level CS course
+
+=== chunk 103 | page 13 ===
+[Section: Course Catalogue table]
+Courses with availability 'Once a year' (14): CS101 Introduction to Programming; CS201 Data Structures & Algorithms; CS203 Computer Organization; CS207 Software Construction; CS208 Machine Learning for Data Science; CS211 Operating Systems; CS212 Programming Language Paradigms; CS301 Foundations of Software Engineering; CS302 Algorithms & Theory of Computing; CS304 Database systems; CS307 Machine Learning; CS311 Advanced Deep Learning; CS312 Natural Language Processing; CS313 Deep Learning for AI
+
+=== chunk 104 | page 13 ===
+[Section: Course Catalogue table]
+Courses with availability 'Twice a year' (1): CS103 Programming for Data Science and Visualization
+
+=== chunk 105 | page 13 ===
+[Section: Course Catalogue table]
+Courses with availability 'Once every two years' (1): CS104 Introduction to Computer Science
+
+=== chunk 106 | page 13 ===
+[Section: Course Catalogue table]
+Courses with availability 'On holding' (5): CS210 Computer Networks; CS303 Human-Computer Interaction; CS306 Computer Security; CS310 Web Applications & Human-Computer; CS3xx Bioinformatics IS
+
+=== chunk 107 | page 10 ===
+[Section: Computer Science Flowchart (page 10, transcribed by hand)]
+COMPUTER SCIENCE FLOWCHART (page 10 of the handbook). The flowchart shows the order of courses in the Computer Science major. Order: Introduction to Computer Science (optional), then Foundation Courses (5 required), then Intermediate Courses (3 required), then Advanced Courses (4 required), then Capstone I and Capstone II OR Intermediate/Advanced Courses (2 required).
+
+FLOWCHART - FOUNDATION COURSES (5 required). Sample foundation courses: Computer Science I: Introduction to Programming; Computer Science II: Data Structures & Algorithms; Discrete Mathematics; Computer Organization; Algorithms & Theory of Computing. Introduction to Computer Science is optional.
+
+=== chunk 108 | page 10 ===
+[Section: Computer Science Flowchart (page 10, transcribed by hand)]
+FLOWCHART - INTERMEDIATE COURSES (3 required). Sample intermediate courses: Introduction to Artificial Intelligence; Principles of Software Construction; Programming Language Paradigms; Computer Networks; Operating System.
+
+FLOWCHART - ADVANCED COURSES (4 required). Sample advanced courses: Web Development & Human-Computer Interaction; Foundations of Software Engineering; Database Systems; Cybersecurity; Introduction to Game Design & Development; Cloud Computing; Computer Graphics; Machine Learning; Deep Learning; Advanced Deep Learning; Computer Vision; Natural Language Processing; Optimization; Computational Social Media; Bioinformatics.
+
+=== chunk 109 | page 10 ===
+[Section: Computer Science Flowchart (page 10, transcribed by hand)]
+FLOWCHART - COMPUTER SCIENCE MINOR (7 courses). The minor in the flowchart has 7 courses: (1) Discrete Mathematics OR Probability; (2) Computer Science I: Introduction to Programming OR Programming for Data Science OR Introduction to Computer Science; (3) Computer Science II: Data Structures & Algorithms; (4) Computer Organization OR Algorithms and Theory of Computing; (5) one Intermediate course; (6) and (7) two Advanced courses.
+

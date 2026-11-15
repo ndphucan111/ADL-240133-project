@@ -1,0 +1,9 @@
+COMPUTER SCIENCE FLOWCHART (page 10 of the handbook). The flowchart shows the order of courses in the Computer Science major. Order: Introduction to Computer Science (optional), then Foundation Courses (5 required), then Intermediate Courses (3 required), then Advanced Courses (4 required), then Capstone I and Capstone II OR Intermediate/Advanced Courses (2 required).
+
+FLOWCHART - FOUNDATION COURSES (5 required). Sample foundation courses: Computer Science I: Introduction to Programming; Computer Science II: Data Structures & Algorithms; Discrete Mathematics; Computer Organization; Algorithms & Theory of Computing. Introduction to Computer Science is optional.
+
+FLOWCHART - INTERMEDIATE COURSES (3 required). Sample intermediate courses: Introduction to Artificial Intelligence; Principles of Software Construction; Programming Language Paradigms; Computer Networks; Operating System.
+
+FLOWCHART - ADVANCED COURSES (4 required). Sample advanced courses: Web Development & Human-Computer Interaction; Foundations of Software Engineering; Database Systems; Cybersecurity; Introduction to Game Design & Development; Cloud Computing; Computer Graphics; Machine Learning; Deep Learning; Advanced Deep Learning; Computer Vision; Natural Language Processing; Optimization; Computational Social Media; Bioinformatics.
+
+FLOWCHART - COMPUTER SCIENCE MINOR (7 courses). The minor in the flowchart has 7 courses: (1) Discrete Mathematics OR Probability; (2) Computer Science I: Introduction to Programming OR Programming for Data Science OR Introduction to Computer Science; (3) Computer Science II: Data Structures & Algorithms; (4) Computer Organization OR Algorithms and Theory of Computing; (5) one Intermediate course; (6) and (7) two Advanced courses.

@@ -1,0 +1,234 @@
+﻿question,expected,expected_page,answer,top_pages,hit,seconds,label,reason
+What is the major code of the B.S. Computer Science program?,7480101,1,The major code of the B.S. Computer Science program is 7480101.,"[1, 4, 4, 7, 5, 7]",1,17,correct,Correct major code.
+What are the Program Educational Objectives (PEOs)?,"PEO1: skills for employment or graduate school; PEO2: ethics, collaboration, communication; PEO3: innovators who solve CS challenges",4,"Program Educational Objectives (PEOs) are outlined in the program handbook:
+
+- **Program Educational Objectives (PEOs)**:
+  - To equip students with the necessary skills and knowledge to gain employment in industry or study in graduate schools.
+  - To instill a strong code of professional and personal ethics, and effectively collaborate and communicate in the workplace and beyond.
+
+- **Program Learning Outcomes (PLOs)**:
+  - **Core Learning Outcomes (Core LOs)**: Students will be able to demonstrate global awareness and respect for diverse perspectives. 
+  - **Major Learning Outcomes (Major LOs)**: Students will be able to formulate quantitative inquiries and apply appropriate mathematical, statistical, or scientific methods.
+  - **Program Learning Outcomes (PLOs)**:
+    - **Core Learning Outcomes (Core LOs)**: Students will be able to locate and critically analyze information and present evidence-based arguments in written and oral forms. 
+    - **Major Learning Outcomes (Major LOs)**: Students will be able to apply design and systems thinking processes to analyze and solve real-world problems.
+    - **Program Learning Outcomes (PLOs)**:
+      - **Core Learning Outcomes (Core LOs)**: Students will be able to demonstrate an understanding of fundamental computer science by illustrating core concepts, comparing methods, analyzing and solving problems in both theory and systems. 
+      - **Major Learning Outcomes (Major LOs)**: Students will explain emerging aspects of the computer science discipline (e.g., artificial intelligence, machine learning, data science, business analytics, digital media, etc.). 
+      - **Program Learning Outcomes (PLOs)**:
+        - **Core Learning Outcomes (Core LO","[4, 4, 11, 4, 4, 4]",1,15.3,incorrect,"Lists only 2 PEOs, mixes in PLOs, then repeats itself until the 350-token limit. The right page (4) was retrieved."
+What jobs have Computer Science graduates gotten?,"Software engineer, testing engineer, AI engineer, data engineer, business analyst, product owner, product development manager",5,"Based on the program description provided, Computer Science graduates have successfully gained employment in various fields:
+
+• Software engineer
+• Testing engineer
+• AI engineer
+• Data engineer
+• Business analyst
+• Product owner
+• Product development manager
+
+These positions demonstrate the versatility and adaptability of Computer Science graduates.","[5, 4, 4, 14, 4, 14]",1,3.4,correct,All 7 jobs listed. The extra sentence is harmless.
+Which graduate programs have CS students applied to?,"MSc/PhD Computer Science, MSc Data Science, MSc Bioinformatics",6,"Based on the provided context, CS students have applied to graduate programs in the United States and Europe. These include:
+
+- MSc/PhD Computer Science
+- MSc Data Science
+- MSc Bioinformatics
+
+The context mentions that these programs are cross-listed with Computer Science, indicating they are also offered by other departments or institutions within the university.","[4, 5, 4, 4, 14, 13]",0,11.8,incorrect,"The 3 programs are right, but it adds a false claim that they are 'cross-listed' with Computer Science. Borderline. (hit=0 in the CSV is a wrong expected page: the text is on page 5.)"
+How many credits are the general curriculum requirements?,40 credits and 10 noncredit items,6,"The general curriculum requirements are 40 credits and 10 noncredit items.
+
+- **General Curriculum Requirements (40 credits & 10 noncredit items)1**: 
+  - 4 Core courses (16 credits): Global Humanities, Modern Vietnamese Culture and Society, Design and Systems Thinking, and one course in Quantitative Understanding and Empirical Scientific Thinking (QUEST), a group of four courses: Quantitative Reasoning, Science Inquiry, Programming for Data Science and Visualization, and Introduction to Statistics.
+  - 6 Exploratory courses (24 credits): 2 courses, at the 100-level or 200-level, chosen from each of the three categories: E1-Arts and Humanities, E2-Social Sciences, and STEM. Among these 6 courses, up to 2 courses (8 credits) can be counted toward the major.
+
+- **Major Requirements (56 credits)**:
+  - CS 101: Introduction to Programming (4 credits)
+  - CS 201: Data Structures & Algorithms (4 credits)
+  - CS 203: Computer Organization (4 credits)
+  - MATH 202: Discrete Math (4 credits)
+
+- **Minor Requirements (24 credits)**:
+  - One programming course (4 credits) which is either 
+    - CS 101: Introduction to Programming
+    - or CS 103: Programming for Data Science and Visualization
+  - One 100-level or 200-level CS course (4 credits)
+  - CS 201 – Data Structures & Algorithms (4 credits)
+  - One intermediate course (4 credits) 
+  -","[6, 6, 7, 7, 7, 13]",1,27,correct,"40 credits and 10 noncredit items are right, but the answer then rambles and is cut at the token limit. Borderline."
+Which four core courses must students take?,"Global Humanities, Modern Vietnamese Culture and Society, Design and Systems Thinking, and one QUEST course",6,"The four core courses that students must take are:
+
+1. Global Humanities
+2. Modern Vietnamese Culture and Society
+3. Design and Systems Thinking
+4. Quantitative Understanding and Empirical Scientific Thinking (QUEST)","[6, 6, 8, 11, 6, 7]",1,9.1,correct,All 4 core courses are right.
+How many credits are the major requirements?,56 credits,7,24 credits.,"[7, 7, 6, 6, 7, 13]",1,6.1,incorrect,Says 24 credits. Correct is 56. 24 is the Minor requirement. The right page (7) was retrieved; the model mixed Major and Minor.
+What must a student complete to formally declare Computer Science as a major?,At least two Computer Science courses (MATH 202 also counts),7,"To formally declare Computer Science as their major, a student must complete at least two Computer Science courses (CS 101: Introduction to Programming and CS 201: Data Structures & Algorithms).","[7, 7, 7, 4, 8, 4]",1,6.8,incorrect,Says the two courses are CS 101 and CS 201. The handbook says any two CS courses (MATH 202 also counts). The model made up specific courses.
+How many courses and credits does the Computer Science minor require?,"Six courses, 24 credits",7,"The Computer Science minor requires students to take a total of six courses:
+
+- One programming course (4 credits)
+- One 100-level or 200-level CS course (4 credits)
+- Two intermediate courses (4 credits each)
+- One 200-level or 300-level CS course (4 credits)
+
+The context provides the following information:
+- The minor requires students to take a total of six courses.
+- It specifies that one programming course is either CS 101: Introduction to Programming, CS 103: Programming for Data Science and Visualization, or CS 104: Introduction to Computer Science.
+- It mentions that the major requirements include two computer science courses (MATH 202 - Discrete Math is also counted).
+- The minor requires completing at least one computer science course.
+
+Therefore, the Computer Science minor requires a total of six courses.","[7, 7, 10, 7, 10, 11]",1,10.9,incorrect,"Says six courses but lists wrong ones (two intermediate courses, no CS 201) and does not give 24 credits."
+What is the minimum major GPA to enroll in CS 401 Capstone I?,3.5 and approval of a successful application,9,"To enroll in CS 401 Capstone I, the student must have a minimum major GPA of 3.5 and approval of a successful application from the Computer Science Capstone Handbook.","[9, 7, 11, 11, 10, 8]",1,7.6,correct,3.5 GPA and approval of an application are right. Small mix-up: it says the approval comes from the Capstone Handbook. Borderline.
+What degree is awarded after completing this program?,B.S. Computer Science (the handbook text wrongly says Applied Mathematics),6,"After completing this program, students will be awarded a Bachelor of Science in Applied Mathematics degree. This is because the context states that ""A Bachelor of Science in Applied Mathematics is awarded following the successful completion of.""","[6, 8, 5, 4, 4, 16]",1,5.5,incorrect,"Says Applied Mathematics. The handbook itself has this mistake (page 6), so the model copied it. The correct degree is B.S. Computer Science."
+"How many foundation courses are required, and which are they?","Five: Intro to Programming, Data Structures & Algorithms, Computer Organization, Discrete Math, Algorithms & Theory of Computing",10-Aug,"3 courses, they are Computer Science I: Introduction to Programming; Computer Science II: Data Structures & Algorithms; Discrete Mathematics; Computer Organization; Algorithms & Theory of Computing.","[10, 8, 8, 8, 13, 6]",1,5.5,incorrect,Says '3 courses' but lists 5 courses. The correct number is 5.
+How many advanced courses are required?,Four,7/8/2010,3 advanced courses are required.,"[10, 8, 10, 7, 8, 6]",1,5.5,incorrect,Says 3 advanced courses. Correct is 4. Probably confused with the 3 intermediate courses.
+How many courses are in the Computer Science minor according to the flowchart?,"7 courses (the text says 6, the handbook is inconsistent)",10,"The Computer Science minor requires students to take a total of six courses:
+- One programming course (4 credits)
+- One 100-level or 200-level CS course (4 credits)
+- Two intermediate courses (4 credits each)
+- One advanced course (4 credits)
+
+So, the Computer Science minor has a flowchart with 7 courses: Discrete Mathematics OR Probability; Computer Science I: Introduction to Programming OR Programming for Data Science OR Introduction to Computer Science; Computer Science II: Data Structures & Algorithms; Computer Organization OR Algorithms and Theory of Computing; two intermediate courses; and two advanced courses.","[10, 10, 10, 7, 7, 11]",1,9.4,incorrect,"Contradicts itself: first says 6 courses, then says the flowchart has 7. The list it gives is also wrong (two intermediate courses; the flowchart has one intermediate and two advanced)."
+What is the prerequisite of CS302 Algorithms & Theory of Computing?,CS201 and MATH 202,13/17,The prerequisite of CS302 Algorithms & Theory of Computing is CS201.,"[17, 13, 17, 17, 14, 18]",1,6.7,incomplete,Says CS201 only. MATH 202 is missing.
+What is the prerequisite of CS311 Advanced Deep Learning?,CS313,13/18,The prerequisite of CS311 Advanced Deep Learning is CS313.,"[18, 13, 18, 18, 13, 17]",1,5.6,correct,Correct: CS313.
+Which programming language is mainly used in CS201?,Java (some Python/C++ also introduced),14,CS208 Machine Learning for Data Science; CS301 Foundations of Software Engineering; CS302 Algorithms & Theory of Computing; CS303 Human-Computer Interaction; CS304 Database Systems; CS306 Computer Security; CS307 Machine Learning; CS310 Web Applications & Human-Computer Interaction; CS311 Advanced Deep Learning; CS312 Natural Language Processing; CS313 Deep Learning for AI,"[14, 13, 16, 13, 14, 13]",1,8.8,incorrect,Answers with a list of course codes and never says Java. The right page (14) was retrieved.
+"Which course teaches finite automaton, pushdown automaton and Turing machine?",CS302 Algorithms & Theory of Computing,17,I don't know based on the handbook.,"[17, 17, 15, 17, 15, 8]",1,6.4,incorrect,Says 'I don't know'. The answer (CS302) is in the handbook and page 17 was ranked first. Over-refusal caused by the strict prompt.
+Which courses are currently on holding?,"CS210, CS303, CS306, CS310, CS3xx Bioinformatics",13,I don't know based on the handbook.,"[13, 13, 13, 13, 13, 13]",1,3.8,incorrect,Says 'I don't know'. All 5 courses are in the retrieved table chunks (page 13). Over-refusal; the 3B model answered this correctly.
+How much is the tuition fee for the Computer Science major?,Not in the handbook. A good system should say it does not know,0,"I don't know based on the handbook.
+
+The Computer Science major at Fulbright is designed to prepare students for work in industry or continue their lifelong learning as well as potential graduate-level studies. The tuition fee for the Computer Science major is not explicitly stated in the given context, but it seems to be a significant cost associated with this program. Without specific information about the tuition fees, I cannot provide an exact amount.
+
+To find out the actual tuition fee, one would need to consult the official handbook or contact Fulbright's academic affairs office for more detailed information.","[7, 4, 1, 4, 7, 10]",,7.7,correct,"Says it does not know, so no made-up number. Borderline: it adds a guess that tuition 'seems to be a significant cost'."
+What is the prerequisite of CS101 Introduction to Programming?,None (CS104 is recommended),13/14,"I don't know based on the handbook.
+
+The prerequisite of CS101 Introduction to Programming is ""None"" as stated in the context.","[13, 13, 14, 14, 13, 13]",1,6.6,ambiguous,Says 'I don't know' and then gives the right answer (None). Self-contradiction.
+How often is CS104 Introduction to Computer Science offered?,Once every two years,13,CS104 Introduction to Computer Science is offered once every two years.,"[13, 13, 13, 13, 13, 14]",1,5.1,correct,Once every two years: correct. The table parsing fix (CS104 row) helped; the baseline said 'once a year'.
+Which course has CORE105 as its prerequisite?,CS203 Computer Organization,13/14,"I don't know based on the handbook.
+
+The course with CORE105 as its prerequisite is CS203: Computer Organization. It has availability = Once a year; prerequisites = CORE105– Design & Systems Thinking, and it introduces students to abstract design and implementation of computer systems from the digital level in the hardware up to the interface between the hardware and software.","[14, 13, 13, 13, 14, 13]",1,7.9,ambiguous,Says 'I don't know' and then gives the right answer (CS203). Self-contradiction.
+"Which course covers Transfer Learning, GAN and Graph Neural Networks?",CS311 Advanced Deep Learning,18,"CS307: Machine Learning
+Transfer Learning: This course introduces supervised learning models and methods such as decision trees, neural networks, nearest-neighbor algorithms, Bayesian learning, Hidden Markov Models, support vector machines.
+GAN: Generative Adversarial Network (GAN): This course covers clustering techniques including K-means clustering, Hierarchical clustering. It also discusses recent applications of machine learning to robotics, autonomous driving systems, face and speech recognition, text and web data processing, etc.
+Graph Neural Networks (GNN): Graph Neural Networks are a type of deep neural network that can be used for tasks such as graph classification, graph representation learning, and graph summarization. This course covers the theoretical foundations of GNNs and their applications in various domains including time-series analysis, natural language processing, robotics, autonomous driving systems, etc.
+CS311: Advanced Deep Learning
+Transfer Learning: Transfer Learning is a type of machine learning where a pre-trained model is used as a starting point for new tasks. This course covers transfer learning techniques such as data augmentation, transfer learning and recurrent neural networks.
+GAN: Generative Adversarial Network (GAN): GANs are a popular deep learning architecture that can be used to generate synthetic data from real-world datasets. This course discusses the theoretical foundations of GANs and their applications in various domains including economics, finance, computer vision, natural language processing, etc.
+Graph Neural Networks: Graph Neural Networks are a type of deep neural network that can be used for tasks such as graph classification, graph representation learning, and graph summarization. This course covers the theoretical foundations of GNNs and their applications in various domains including time-series analysis, natural language processing, robotics, autonomous driving systems, etc","[18, 18, 15, 18, 17, 18]",1,16.7,incorrect,"Starts with CS307, mixes CS307 and CS311 text and invents details. The answer is CS311."
+How many credits is each course unless indicated otherwise?,4 credits (one semester),13,"2 credits  
+3 credits  
+8 credits  
+4 credits  
+2 credits  
+4 credits  
+6 credits  
+4 credits  
+2 credits  
+4 credits  
+2 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits  
+4 credits","[13, 6, 6, 7, 7, 7]",1,11.9,incorrect,Repeats '4 credits' until the token limit and lists random numbers. Repetition loop of the 0.5B model.
+,,,,,,,,
+CONFIG,llm=qwen2.5:0.5b embed=nomic-embed-text chunk=700 top_k=6 clean=1 struct=1 prefix=1 table=1 ocr=0 flow=1 bm25=1 rerank=1 strict=1,,,,,,,

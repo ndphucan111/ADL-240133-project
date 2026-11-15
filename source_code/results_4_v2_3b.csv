@@ -1,0 +1,78 @@
+﻿question,expected,expected_page,answer,top_pages,hit,seconds,label,reason
+What is the major code of the B.S. Computer Science program?,7480101,1,MAJOR CODE: 7480101 (page 1),"[1, 4, 4, 7, 5, 7]",1,41,correct,MAJOR CODE: 7480101 (page 1)
+What are the Program Educational Objectives (PEOs)?,"PEO1: skills for employment or graduate school; PEO2: ethics, collaboration, communication; PEO3: innovators who solve CS challenges",4,"The Program Educational Objectives (PEOs) are as follows:
+
+- PEO1: To equip students with the necessary skills and knowledge to gain employment in industry or to study in graduate schools.
+- PEO2: To ingrain in students a strong code of professional and personal ethics, and the ability to effectively and creatively collaborate and communicate in the workplace and beyond.
+- PEO3: To cultivate students to become innovators and thinkers to solve computer science related challenges.","[4, 4, 11, 4, 4, 4]",1,30.8,correct,"The Program Educational Objectives (PEOs) are as follows:
+
+- PEO1: To equip students with the necessary skills and knowledge to gain employment in industry or to study in graduate schools.
+- PEO2: To ingrain in students a strong code of professional and personal ethics, and the ability to effectively and creatively collaborate and communicate in the workplace and beyond.
+- PEO3: To cultivate students to become innovators and thinkers to solve computer science related challenges."
+What jobs have Computer Science graduates gotten?,"Software engineer, testing engineer, AI engineer, data engineer, business analyst, product owner, product development manager",5,"(page 3, Section: Program Description) Software engineer, Testing engineer, AI engineer, Data engineer, Business analyst, Product owner, Product development manager. (page 4, Section: 3. Graduate Studies and Career Paths for the B.S. Computer Science) MSc/PhD Computer Science, MSc Data Science, MSc Bioinformatics.","[5, 4, 4, 14, 4, 14]",1,26.1,correct,"(page 3, Section: Program Description) Software engineer, Testing engineer, AI engineer, Data engineer, Business analyst, Product owner, Product development manager. (page 4, Section: 3. Graduate Studies and Career Paths for the B.S. Computer Science) MSc/PhD Computer Science, MSc Data Science, MSc Bioinformatics."
+Which graduate programs have CS students applied to?,"MSc/PhD Computer Science, MSc Data Science, MSc Bioinformatics",6,"MSc/PhD Computer Science  
+MSc Data Science  
+MSc Bioinformatics (pages 5)","[4, 5, 4, 4, 14, 13]",0,19.1,correct,"MSc/PhD Computer Science  
+MSc Data Science  
+MSc Bioinformatics (pages 5)"
+How many credits are the general curriculum requirements?,40 credits and 10 noncredit items,6,The general curriculum requirements are 40 credits (page 6).,"[6, 6, 7, 7, 7, 13]",1,21.8,incomplete,The general curriculum requirements are 40 credits (page 6).
+Which four core courses must students take?,"Global Humanities, Modern Vietnamese Culture and Society, Design and Systems Thinking, and one QUEST course",6,"The four core courses students must take are:
+1. Global Humanities
+2. Modern Vietnamese Culture and Society
+3. Design and Systems Thinking
+4. One course in Quantitative Understanding and Empirical Scientific Thinking (QUEST)","[6, 6, 8, 11, 6, 7]",1,23.1,correct,"The four core courses students must take are:
+1. Global Humanities
+2. Modern Vietnamese Culture and Society
+3. Design and Systems Thinking
+4. One course in Quantitative Understanding and Empirical Scientific Thinking (QUEST)"
+How many credits are the major requirements?,56 credits,7,The major requirements are 56 credits (page 7).,"[7, 7, 6, 6, 7, 13]",1,16.9,correct,The major requirements are 56 credits (page 7).
+What must a student complete to formally declare Computer Science as a major?,At least two Computer Science courses (MATH 202 also counts),7,"To formally declare Computer Science as their major, the student must complete at least two Computer Science courses and MATH 202 - Discrete Math. (Page 7)","[7, 7, 7, 4, 8, 4]",1,22.7,incorrect,"To formally declare Computer Science as their major, the student must complete at least two Computer Science courses and MATH 202 - Discrete Math. (Page 7)"
+How many courses and credits does the Computer Science minor require?,"Six courses, 24 credits",7,"The Computer Science minor requires 6 courses totaling 24 credits. The six courses are:
+- One programming course (4 credits)
+- One 100-level or 200-level CS course (4 credits)
+- CS 201 – Data Structures & Algorithms (4 credits)
+- One intermediate course (4 credits)
+- One 200-level or 300-level CS course (4 credits)
+- One advanced course (4 credits)
+
+(page 7)","[7, 7, 10, 7, 10, 11]",1,30.4,correct,"The Computer Science minor requires 6 courses totaling 24 credits. The six courses are:
+- One programming course (4 credits)
+- One 100-level or 200-level CS course (4 credits)
+- CS 201 – Data Structures & Algorithms (4 credits)
+- One intermediate course (4 credits)
+- One 200-level or 300-level CS course (4 credits)
+- One advanced course (4 credits)
+
+(page 7)"
+What is the minimum major GPA to enroll in CS 401 Capstone I?,3.5 and approval of a successful application,9,I don't know based on the handbook.,"[9, 7, 11, 11, 10, 8]",1,21.2,incorrect,I don't know based on the handbook.
+What degree is awarded after completing this program?,B.S. Computer Science (the handbook text wrongly says Applied Mathematics),6,A Bachelor of Science in Computer Science is awarded after completing this program. (pages 8 and 16),"[6, 8, 5, 4, 4, 16]",1,15.6,correct,A Bachelor of Science in Computer Science is awarded after completing this program. (pages 8 and 16)
+"How many foundation courses are required, and which are they?","Five: Intro to Programming, Data Structures & Algorithms, Computer Organization, Discrete Math, Algorithms & Theory of Computing",10-Aug,"Required foundation courses are 5. Sample foundational courses include:
+- Computer Science I: Introduction to Programming
+- Computer Science II: Data Structures & Algorithms
+- Discrete Mathematics
+- Computer Organization
+- Algorithms & Theory of Computing
+
+(page 8)","[10, 8, 8, 8, 13, 6]",1,19.8,correct,"Required foundation courses are 5. Sample foundational courses include:
+- Computer Science I: Introduction to Programming
+- Computer Science II: Data Structures & Algorithms
+- Discrete Mathematics
+- Computer Organization
+- Algorithms & Theory of Computing
+
+(page 8)"
+How many advanced courses are required?,Four,7/8/2010,Four advanced courses are required (page 7).,"[10, 8, 10, 7, 8, 6]",1,16.8,correct,Four advanced courses are required (page 7).
+How many courses are in the Computer Science minor according to the flowchart?,"7 courses (the text says 6, the handbook is inconsistent)",10,The flowchart shows that the Computer Science minor consists of 7 courses. (Page 10),"[10, 10, 10, 7, 7, 11]",1,15.7,correct,The flowchart shows that the Computer Science minor consists of 7 courses. (Page 10)
+What is the prerequisite of CS302 Algorithms & Theory of Computing?,CS201 and MATH 202,13/17,The prerequisite of CS302 Algorithms & Theory of Computing is CS201 and MATH202 (page 17).,"[17, 13, 17, 17, 14, 18]",1,21.6,correct,The prerequisite of CS302 Algorithms & Theory of Computing is CS201 and MATH202 (page 17).
+What is the prerequisite of CS311 Advanced Deep Learning?,CS313,13/18,The prerequisite of CS311 Advanced Deep Learning is CS313 (page 18).,"[18, 13, 18, 18, 13, 17]",1,18.1,correct,The prerequisite of CS311 Advanced Deep Learning is CS313 (page 18).
+Which programming language is mainly used in CS201?,Java (some Python/C++ also introduced),14,Java is the main programming language used in CS201. (page 13),"[14, 13, 16, 13, 14, 13]",1,20.1,correct,Java is the main programming language used in CS201. (page 13)
+"Which course teaches finite automaton, pushdown automaton and Turing machine?",CS302 Algorithms & Theory of Computing,17,"CS302: Algorithms & Theory of Computing (page 17) teaches finite automaton, pushdown automaton, and Turing machine.","[17, 17, 15, 17, 15, 8]",1,21.3,correct,"CS302: Algorithms & Theory of Computing (page 17) teaches finite automaton, pushdown automaton, and Turing machine."
+Which courses are currently on holding?,"CS210, CS303, CS306, CS310, CS3xx Bioinformatics",13,"On holding courses: CS210 Computer Networks, CS303 Human-Computer Interaction, CS306 Computer Security, CS310 Web Applications & Human-Computer Interaction, CS3xx Bioinformatics IS (pages 13 and not explicitly numbered)","[13, 13, 13, 13, 13, 13]",1,16.1,correct,"On holding courses: CS210 Computer Networks, CS303 Human-Computer Interaction, CS306 Computer Security, CS310 Web Applications & Human-Computer Interaction, CS3xx Bioinformatics IS (pages 13 and not explicitly numbered)"
+How much is the tuition fee for the Computer Science major?,Not in the handbook. A good system should say it does not know,0,I don't know based on the handbook.,"[7, 4, 1, 4, 7, 10]",,20.8,correct,I don't know based on the handbook.
+What is the prerequisite of CS101 Introduction to Programming?,None (CS104 is recommended),13/14,The prerequisite of CS101 Introduction to Programming is None (CS104 is recommended). (page 13),"[13, 13, 14, 14, 13, 13]",1,32.1,correct,The prerequisite of CS101 Introduction to Programming is None (CS104 is recommended). (page 13)
+How often is CS104 Introduction to Computer Science offered?,Once every two years,13,CS104 Introduction to Computer Science is offered once every two years. (page 13),"[13, 13, 13, 13, 13, 14]",1,25.2,correct,CS104 Introduction to Computer Science is offered once every two years. (page 13)
+Which course has CORE105 as its prerequisite?,CS203 Computer Organization,13/14,CS203 Computer Organization (page 13),"[14, 13, 13, 13, 14, 13]",1,25.6,correct,CS203 Computer Organization (page 13)
+"Which course covers Transfer Learning, GAN and Graph Neural Networks?",CS311 Advanced Deep Learning,18,"CS311: Advanced Deep Learning (page 18) covers Transfer Learning, GAN and Graph Neural Networks.","[18, 18, 15, 18, 17, 18]",1,31.2,correct,"CS311: Advanced Deep Learning (page 18) covers Transfer Learning, GAN and Graph Neural Networks."
+How many credits is each course unless indicated otherwise?,4 credits (one semester),13,I don't know based on the handbook.,"[13, 6, 6, 7, 7, 7]",1,7.4,incorrect,I don't know based on the handbook.
+,,,,,,,,
+CONFIG,llm=qwen2.5:3b embed=nomic-embed-text chunk=700 top_k=6 clean=1 struct=1 prefix=1 table=1 ocr=0 flow=1 bm25=1 rerank=1 strict=1,,,,,,,
