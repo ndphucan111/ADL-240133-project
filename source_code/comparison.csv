@@ -11,30 +11,32 @@ I no BM25,21,0,0,4,0,84%,24/24,28.6
 J no table,21,0,0,4,0,84%,24/24,28.9
 K no flowchart,20,1,0,4,0,80%,23/24,13.3
 L no struct,20,1,0,4,0,80%,24/24,31.9
+M v3 1.5b + new tables,22,0,0,3,0,88%,24/24,8.4
+N v3 1.5b + reverse prereq,22,0,0,3,0,88%,24/24,8.8
 
-#,Question,A baseline 0.5b,B baseline 1.5b,C v2 0.5b,D v2 1.5b,E v2 3b,F v3 1.5b,G v3 3b,H no rerank,I no BM25,J no table,K no flowchart,L no struct
-1,What is the major code of the B.S. Computer Science program?,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
-2,What are the Program Educational Objectives (PEOs)?,incorrect,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct
-3,What jobs have Computer Science graduates gotten?,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
-4,Which graduate programs have CS students applied to?,incorrect,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct
-5,How many credits are the general curriculum requirements?,incorrect,correct,correct,correct,incomplete,correct,incomplete,correct,correct,correct,correct,correct
-6,Which four core courses must students take?,incorrect,incorrect,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,incorrect
-7,How many credits are the major requirements?,correct,correct,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
-8,What must a student complete to formally declare Computer Science as a major?,correct,correct,incorrect,correct,incorrect,correct,correct,correct,correct,correct,correct,correct
-9,How many courses and credits does the Computer Science minor require?,incomplete,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,incomplete,correct
-10,What is the minimum major GPA to enroll in CS 401 Capstone I?,correct,correct,correct,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct
-11,What degree is awarded after completing this program?,incorrect,incorrect,incorrect,correct,correct,correct,correct,incorrect,incorrect,incorrect,correct,correct
-12,"How many foundation courses are required, and which are they?",incorrect,correct,incorrect,correct,correct,correct,correct,correct,incorrect,correct,incorrect,correct
-13,How many advanced courses are required?,incorrect,incorrect,incorrect,incorrect,correct,incorrect,correct,correct,incorrect,incorrect,incorrect,correct
-14,How many courses are in the Computer Science minor according to the flowchart?,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect
-15,What is the prerequisite of CS302 Algorithms & Theory of Computing?,correct,incomplete,incomplete,correct,correct,correct,correct,correct,correct,correct,correct,incomplete
-16,What is the prerequisite of CS311 Advanced Deep Learning?,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
-17,Which programming language is mainly used in CS201?,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct
-18,"Which course teaches finite automaton, pushdown automaton and Turing machine?",correct,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,incorrect
-19,Which courses are currently on holding?,incorrect,incorrect,incorrect,incorrect,correct,incorrect,correct,incomplete,incorrect,incorrect,incorrect,incorrect
-20,How much is the tuition fee for the Computer Science major?,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
-21,What is the prerequisite of CS101 Introduction to Programming?,incorrect,incorrect,ambiguous,correct,correct,correct,correct,correct,correct,correct,correct,correct
-22,How often is CS104 Introduction to Computer Science offered?,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
-23,Which course has CORE105 as its prerequisite?,incorrect,correct,ambiguous,correct,correct,correct,correct,correct,correct,incorrect,correct,correct
-24,"Which course covers Transfer Learning, GAN and Graph Neural Networks?",correct,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct
-25,How many credits is each course unless indicated otherwise?,incorrect,correct,incorrect,correct,incorrect,correct,correct,correct,correct,correct,correct,correct
+#,Question,A baseline 0.5b,B baseline 1.5b,C v2 0.5b,D v2 1.5b,E v2 3b,F v3 1.5b,G v3 3b,H no rerank,I no BM25,J no table,K no flowchart,L no struct,M v3 1.5b + new tables,N v3 1.5b + reverse prereq
+1,What is the major code of the B.S. Computer Science program?,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+2,What are the Program Educational Objectives (PEOs)?,incorrect,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+3,What jobs have Computer Science graduates gotten?,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+4,Which graduate programs have CS students applied to?,incorrect,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+5,How many credits are the general curriculum requirements?,incorrect,correct,correct,correct,incomplete,correct,incomplete,correct,correct,correct,correct,correct,correct,correct
+6,Which four core courses must students take?,incorrect,incorrect,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,incorrect,correct,correct
+7,How many credits are the major requirements?,correct,correct,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+8,What must a student complete to formally declare Computer Science as a major?,correct,correct,incorrect,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct
+9,How many courses and credits does the Computer Science minor require?,incomplete,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,incomplete,correct,correct,correct
+10,What is the minimum major GPA to enroll in CS 401 Capstone I?,correct,correct,correct,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct
+11,What degree is awarded after completing this program?,incorrect,incorrect,incorrect,correct,correct,correct,correct,incorrect,incorrect,incorrect,correct,correct,incorrect,incorrect
+12,"How many foundation courses are required, and which are they?",incorrect,correct,incorrect,correct,correct,correct,correct,correct,incorrect,correct,incorrect,correct,correct,correct
+13,How many advanced courses are required?,incorrect,incorrect,incorrect,incorrect,correct,incorrect,correct,correct,incorrect,incorrect,incorrect,correct,incorrect,incorrect
+14,How many courses are in the Computer Science minor according to the flowchart?,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,correct,correct
+15,What is the prerequisite of CS302 Algorithms & Theory of Computing?,correct,incomplete,incomplete,correct,correct,correct,correct,correct,correct,correct,correct,incomplete,correct,correct
+16,What is the prerequisite of CS311 Advanced Deep Learning?,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+17,Which programming language is mainly used in CS201?,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+18,"Which course teaches finite automaton, pushdown automaton and Turing machine?",correct,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,correct,correct
+19,Which courses are currently on holding?,incorrect,incorrect,incorrect,incorrect,correct,incorrect,correct,incomplete,incorrect,incorrect,incorrect,incorrect,incorrect,incorrect
+20,How much is the tuition fee for the Computer Science major?,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+21,What is the prerequisite of CS101 Introduction to Programming?,incorrect,incorrect,ambiguous,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+22,How often is CS104 Introduction to Computer Science offered?,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+23,Which course has CORE105 as its prerequisite?,incorrect,correct,ambiguous,correct,correct,correct,correct,correct,correct,incorrect,correct,correct,correct,correct
+24,"Which course covers Transfer Learning, GAN and Graph Neural Networks?",correct,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+25,How many credits is each course unless indicated otherwise?,incorrect,correct,incorrect,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct

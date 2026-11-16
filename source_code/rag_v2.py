@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""
-RAG v2: accuracy-focused version of run_pdf.py.
-Every improvement has an on/off switch (environment variable, 1 = on, 0 = off).
-
-Usage: python rag_v2.py --question "..." [--rebuild] [--dump]
-"""
 import os
 import re
 import sys
@@ -45,6 +38,7 @@ USE_STRUCT = flag("USE_STRUCT")          # section-aware + course-aware chunks
 USE_PREFIX = flag("USE_PREFIX")          # nomic prefixes (search_document / search_query)
 USE_TABLE = flag("USE_TABLE")            # read the course catalogue table
 USE_OCR = flag("USE_OCR", "0")           # automatic OCR for pages without text (messy on this flowchart)
+USE_REVERSE = flag("USE_REVERSE")        # "which courses can I take after X?" notes built from the prerequisites
 USE_FLOWCHART = flag("USE_FLOWCHART")    # hand-written text of image/table pages (flowchart_page10.txt, manual_page*.txt)
 # Switches that change only retrieval / generation (no re-index needed)
 USE_BM25 = flag("USE_BM25")              # hybrid search
@@ -254,6 +248,64 @@ def catalogue_docs(layout_text: str, page_no: int, name: str, titles: dict) -> L
     return docs
 
 
+# ---------------- REVERSE PREREQUISITES ----------------
+PREREQ_LINE = re.compile(r"^Prerequisites?:\s*(.+)$", re.IGNORECASE)
+CODE_RE = re.compile(r"\b(?:CS|MATH|CORE|ENG)\s?\d{3}\b")
+
+
+def reverse_prereq_docs(texts: List[str], titles: dict, name: str, table_docs=()) -> List[Document]:
+    """The handbook says 'CS201 requires CS101'. Students also ask the other way round:
+    'what can I take after CS101?'. Build one note per prerequisite course to answer that."""
+    prereq, page_of = {}, {}
+    for pno, t in enumerate(texts, 1):
+        cur = None
+        for line in t.splitlines():
+            s = line.strip()
+            m = TITLE_LINE.match(s)
+            if m:
+                cur = m.group(1).replace(" ", "")
+                continue
+            p = PREREQ_LINE.match(s)
+            if p and cur:
+                prereq[cur] = p.group(1)
+                page_of.setdefault(cur, pno)
+    # Courses that are only in the catalogue table (no description, e.g. CS310) are added too.
+    titles = dict(titles)
+    for d in table_docs:
+        m = re.match(r"((?:CS|MATH|ENG)\s?(?:\d{3}|3xx))\s+(.*?): availability = .*?; prerequisites = (.*)$",
+                     d.page_content)
+        if m:
+            code = m.group(1).replace(" ", "")
+            if code not in prereq:
+                prereq[code] = m.group(3)
+                page_of[code] = d.metadata.get("page", 13)
+            titles.setdefault(code, m.group(2))
+    after = {}  # prerequisite code -> [(course, note)]
+    for course, text in prereq.items():
+        if text.lower().startswith("none"):
+            continue
+        for c in CODE_RE.findall(text):
+            after.setdefault(c.replace(" ", ""), []).append((course, ""))
+        lv = re.search(r"(\d)00-level", text)
+        if lv:  # e.g. "one 200-level CS course": any CS course of that level is enough
+            for c in titles:
+                if c.startswith("CS" + lv.group(1)) and c != course:
+                    after.setdefault(c, []).append((course, "any " + lv.group(1) + "00-level CS course is accepted"))
+    docs = []
+    for pre, items in after.items():
+        parts = []
+        for course, note in items:
+            parts.append((course + " " + titles.get(course, "")).strip() + (" (" + note + ")" if note else ""))
+        page = min(page_of.get(c, 13) for c, _n in items)
+        head = (pre + " " + re.sub(r"\s*\(\d+ credits?\)", "", titles.get(pre, ""))).strip()
+        docs.append(Document(
+            page_content="COURSES THAT CAN BE TAKEN AFTER " + head + " (courses that list " + pre +
+                         " as a prerequisite): " + "; ".join(parts) + ".",
+            metadata={"source": name, "page": page, "kind": "table",
+                      "section": "Prerequisite lookup (built from the course descriptions)"}))
+    return docs
+
+
 # ---------------- OCR (pages without text) ----------------
 def ocr_page(pdf_path: str, idx: int) -> str:
     try:
@@ -290,6 +342,7 @@ def load_pdf(pdf_path: str) -> List[Document]:
     titles = course_titles(texts)
     docs: List[Document] = []
     empty = []
+    table_docs: List[Document] = []
     for i, (page, text) in enumerate(zip(reader.pages, texts)):
         if not text:
             empty.append(i)
@@ -298,7 +351,11 @@ def load_pdf(pdf_path: str) -> List[Document]:
                              metadata={"source": name, "page": i + 1, "kind": "text"}))
         if USE_TABLE and re.search(AVAIL, text):
             layout = page.extract_text(extraction_mode="layout") or ""
-            docs.extend(catalogue_docs(layout, i + 1, name, titles))
+            cat = catalogue_docs(layout, i + 1, name, titles)
+            table_docs.extend(cat)
+            docs.extend(cat)
+    if USE_REVERSE:
+        docs.extend(reverse_prereq_docs(texts, titles, name, table_docs))
     if USE_OCR:
         for i in empty:
             text = ocr_page(pdf_path, i)
@@ -345,7 +402,7 @@ def make_embeddings():
 
 def index_tag() -> str:
     raw = "|".join([EMBED_MODEL, str(CHUNK_SIZE), str(CHUNK_OVERLAP)] +
-                   [str(int(x)) for x in (USE_CLEAN, USE_STRUCT, USE_PREFIX, USE_TABLE, USE_OCR, USE_FLOWCHART)])
+                   [str(int(x)) for x in (USE_CLEAN, USE_STRUCT, USE_PREFIX, USE_TABLE, USE_OCR, USE_FLOWCHART, USE_REVERSE)])
     return hashlib.md5(raw.encode()).hexdigest()[:8]
 
 
@@ -469,7 +526,7 @@ def config_summary() -> str:
     return ("llm=" + LLM_MODEL + " embed=" + EMBED_MODEL + " chunk=" + str(CHUNK_SIZE) +
             " top_k=" + str(TOP_K) + " clean=" + str(int(USE_CLEAN)) + " struct=" + str(int(USE_STRUCT)) +
             " prefix=" + str(int(USE_PREFIX)) + " table=" + str(int(USE_TABLE)) +
-            " ocr=" + str(int(USE_OCR)) + " flow=" + str(int(USE_FLOWCHART)) +
+            " ocr=" + str(int(USE_OCR)) + " flow=" + str(int(USE_FLOWCHART)) + " rev=" + str(int(USE_REVERSE)) +
             " bm25=" + str(int(USE_BM25)) + " rerank=" + str(int(USE_RERANK)) +
             " strict=" + str(int(USE_STRICT)) + " prompt=" + os.getenv("PROMPT", "strict"))
 

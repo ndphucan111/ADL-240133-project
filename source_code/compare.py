@@ -1,5 +1,4 @@
 import csv, os, statistics
-
 RUNS = {
     "A baseline 0.5b": ["results_1_baseline_0.5b.csv", "results_1b_baseline_new5.csv"],
     "B baseline 1.5b": ["results_7_baseline_1.5b.csv"],
@@ -13,6 +12,8 @@ RUNS = {
     "J no table":      ["results_10_no_table.csv"],
     "K no flowchart":  ["results_11_no_flowchart.csv"],
     "L no struct":     ["results_12_no_struct.csv"],
+    "M v3 1.5b + new tables": ["results_13_v3_1.5b_tables.csv"],
+    "N v3 1.5b + reverse prereq": ["results_14_v3_1.5b_reverse.csv"],
 }
 LABELS = ["correct", "incomplete", "ambiguous", "incorrect"]
 N_QUESTIONS = 25
