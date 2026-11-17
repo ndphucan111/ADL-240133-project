@@ -1,4 +1,4 @@
-![title_image](images\Major_Handbook_Chatbot.png)
+![title_image](images/Major_Handbook_Chatbot.png)
 
 # Major Handbook RAG Chatbot (CS311 Final Project)
 
