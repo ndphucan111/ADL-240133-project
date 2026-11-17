@@ -1,4 +1,4 @@
-![title_image](images\Major Handbook Chatbot.png)
+![title_image](images\Major_Handbook_Chatbot.png)
 
 # Major Handbook RAG Chatbot (CS311 Final Project)
 
@@ -127,4 +127,4 @@ python compare.py                       # builds comparison.csv
 - The 25 test questions were written by the author while building the system, so the results can look better than
   they would on completely new questions.
 
-![web](images\web.png)
+![web](images/web.png)
