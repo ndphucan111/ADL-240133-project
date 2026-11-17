@@ -1,0 +1,41 @@
+# Run from the PROJECT ROOT:
+#   docker compose -f docker/docker-compose.yml up --build
+# Optional (Ollama inside Docker too):
+#   docker compose -f docker/docker-compose.yml --profile ollama up --build
+name: handbook-rag
+
+services:
+  app:
+    build:
+      context: ..                       # project root
+      dockerfile: docker/Dockerfile
+    image: handbook-rag
+    container_name: handbook-rag-app
+    ports:
+      - "8501:8501"
+    environment:
+      # Default: Ollama installed on your computer. With --profile ollama use http://ollama:11434
+      OLLAMA_HOST: ${OLLAMA_HOST:-http://host.docker.internal:11434}
+      LLM_MODEL: ${LLM_MODEL:-qwen2.5:1.5b}
+      PROMPT: balanced
+    extra_hosts:
+      - "host.docker.internal:host-gateway"   # needed on Linux; harmless on Windows/Mac
+    volumes:
+      - ../source_code/major_handbook_pdfs:/app/major_handbook_pdfs   # documents
+      - chroma_db:/app/chroma_db                                      # vector database (kept between runs)
+      - uploads:/app/uploads                                          # PDFs uploaded in the web page
+    restart: unless-stopped
+
+  ollama:                                # only starts with: --profile ollama
+    image: ollama/ollama:latest
+    container_name: handbook-rag-ollama
+    profiles: ["ollama"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama      # downloaded models are kept here
+
+volumes:
+  chroma_db:
+  uploads:
+  ollama_models:

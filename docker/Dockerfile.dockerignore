@@ -1,0 +1,16 @@
+# Keep the image small and clean (used with: docker build -f docker/Dockerfile .)
+.git
+.gitignore
+**/__pycache__
+**/*.pyc
+.env
+demo_video
+report
+data_txt
+source_code/chroma_db
+source_code/vector_store*
+source_code/uploads
+source_code/results_*.csv
+source_code/chunks_dump.txt
+source_code/~$*
+**/.DS_Store

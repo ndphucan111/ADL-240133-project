@@ -1,14 +1,8 @@
-"""
-Streamlit web UI for the handbook RAG chatbot (Task 4).
-Run:  streamlit run app.py
-"""
 import csv
 import os
 import time
 from pathlib import Path
 
-# Defaults for the web app. They must be set BEFORE importing rag_v2.
-# (Best settings from our evaluation: balanced prompt + 1.5b model.)
 os.environ.setdefault("PROMPT", "balanced")
 os.environ.setdefault("LLM_MODEL", "qwen2.5:1.5b")
 
@@ -27,7 +21,7 @@ EXAMPLES = [
     "What is the major code of the B.S. Computer Science program?",
     "What is the prerequisite of CS311 Advanced Deep Learning?",
     "How many courses are in the Computer Science minor according to the flowchart?",
-    "Which courses are currently on holding?",
+    "Which courses can I take after CS101?",
     "How much is the tuition fee for the Computer Science major?",
 ]
 UPLOAD_DIR = Path("uploads")
@@ -102,7 +96,7 @@ if page == "Chat":
 
     for m in st.session_state.messages:
         with st.chat_message(m["role"]):
-            st.markdown(m["content"])
+            st.markdown(m["content"].replace("\n", "  \n"))  # keep line breaks
             if m["role"] == "assistant":
                 if m.get("meta"):
                     st.caption(m["meta"])
@@ -125,7 +119,7 @@ if page == "Chat":
                     secs = round(time.time() - t0, 1)
                 answer, sources = result["answer"], result["sources"]
                 meta = "Model: " + model + " | " + str(secs) + " s"
-                st.markdown(answer)
+                st.markdown(answer.replace("\n", "  \n"))  # keep line breaks
                 st.caption(meta)
                 if show_sources:
                     render_sources(sources)
