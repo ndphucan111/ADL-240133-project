@@ -28,7 +28,11 @@ source_code/
   major_handbook_pdfs/    the handbook PDF
   results_*.csv           results of each experiment (with labels)
 docker/
-  Dockerfile, docker-compose.yml, requirements-docker.txt, Dockerfile.dockerignore, DOCKER.md
+  Dockerfile
+  docker-compose.yml
+  requirements-docker.txt
+  Dockerfile.dockerignore
+  DOCKER.md
 report/                   final report (PDF)
 demo_video/               demo videos
 images/                   images for use in README.md
@@ -56,6 +60,10 @@ images/                   images for use in README.md
 - Python packages (see `docker/requirements-docker.txt`):
   ```
   pip install streamlit pypdf langchain-core langchain-text-splitters langchain-chroma langchain-ollama chromadb rank-bm25 sentence-transformers
+
+  #OR
+
+  pip install -r docker/requirements-docker.txt
   ```
 - The first run needs internet once to download the re-ranker model (about 90 MB).
 
